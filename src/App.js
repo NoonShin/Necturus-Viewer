@@ -5,7 +5,7 @@ import {Routes, Route, Navigate} from "react-router-dom";
 import {Login} from "./components/Login";
 import ProtectedRoutes from "./components/ProtectedRoutes";
 import NotFound from "./components/NotFound";
-import {XMLViewer} from "./components/XMLViewer";
+import {XMLViewerContainer} from "./components/XMLViewerContainer";
 import Cookies from "universal-cookie";
 import {Col, Container, Nav, Row} from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -21,7 +21,7 @@ function App() {
                 <Route exact path="/" element={cookies.get("TOKEN") ? <Navigate to='/edit' replace /> : <Login />} />
                 <Route exact path="/edit" element={
                     <ProtectedRoutes>
-                        <XMLViewer />
+                        <XMLViewerContainer />
                     </ProtectedRoutes>
                 }
                 />

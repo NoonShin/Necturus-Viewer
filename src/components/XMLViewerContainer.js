@@ -1,20 +1,19 @@
 import {Fragment, useState} from "react";
 import * as AppUtil from "../util/app-util";
 import Container from "react-bootstrap/Container";
-import CodeMirrorCollab from "./CodeMirrorCollab";
 import AnnotationContainer from "./AnnotationContainer";
 import {Responsive, WidthProvider} from "react-grid-layout";
 import Cookies from "universal-cookie";
 import {CustomNavbar} from "./CustomNavbar";
 import {ImportModal} from "./ImportModal";
+import {DynamicXMLViewer} from "./DynamicXMLViewer";
 const cookies = new Cookies();
 
 
 const ResponsiveGridLayout = WidthProvider(Responsive);
 
-export function XMLViewer() {
+export function XMLViewerContainer() {
     const [selectedZone, setSelectedZone] = useState("");
-    const [socketDisconnect, setSocketDisconnect] = useState(false);
     const [layout, setLayout] = useState(AppUtil.sideBySideLayout);
 
     const [show, setShow] = useState(false);
@@ -34,7 +33,6 @@ export function XMLViewer() {
 
     function handleLogout() {
         cookies.remove("TOKEN", { path: "/" });
-        setSocketDisconnect(true)
         window.location.href = '/'
     }
 
@@ -61,7 +59,7 @@ export function XMLViewer() {
                 >
                     <div key="1">
                         <div className="border bg-light h-100 p-3">
-                            <CodeMirrorCollab selection={selectedZone} disconnect={socketDisconnect}/>
+                            <DynamicXMLViewer onSelection={selectedZone} />
                         </div>
                     </div>
                     <div key="2">

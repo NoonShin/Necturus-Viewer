@@ -67,6 +67,10 @@
   transform-origin: top left;
 }
 
+.xml-container {
+  overflow-y: scroll;
+}
+
 .placeholder {
   border: 1px solid black;
   border-radius: 4px;
@@ -149,5 +153,17 @@
 }
 
 .switcher__input--pan:checked ~ .switcher__toggle {
+  left: 72px;
+}
+
+.switcherxml__input {
+  display: none;
+}
+
+.switcherxml__input:checked + .switcher__label {
+  color: #fff;
+}
+
+.switcherxml__input--render:checked ~ .switcher__toggle {
   left: 72px;
 }
