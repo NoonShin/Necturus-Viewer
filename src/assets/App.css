@@ -69,6 +69,9 @@
 
 .xml-container {
   overflow-y: scroll;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
 }
 
 .placeholder {
@@ -166,4 +169,23 @@
 
 .switcherxml__input--render:checked ~ .switcher__toggle {
   left: 72px;
+}
+
+
+/*highlighting lines*/
+
+.highlighted {
+  background-color: #5bb56e75;
+  position: relative;
+}
+
+.highlighted:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -10px; /* Adjust this value to change the position of the arrow */
+  transform: translateY(-50%) rotate(180deg); /* Rotate the arrow to point to the left */
+  border-width: 6px; /* Adjust this value to change the size of the arrow */
+  border-style: solid;
+  border-color: transparent black transparent transparent; /* Adjust this value to change the color of the arrow */
 }

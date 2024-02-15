@@ -1,9 +1,12 @@
 import React, {Fragment, useEffect, useRef, useState} from 'react'
 import XMLViewer from 'react-xml-viewer'
 import xmlFile from './../assets/oxen.xml'
-import {SearchCursor} from "@codemirror/search";
-import {syntaxTree} from "@codemirror/language";
-import {EditorSelection} from "@codemirror/state";
+import CETEI from 'CETEIcean'
+import {Button} from "react-bootstrap";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {solid} from "@fortawesome/fontawesome-svg-core/import.macro";
+import { scrollIntoView } from "seamless-scroll-polyfill";
+
 
 export function DynamicXMLViewer(onSelection) {
     const [xmlText, setXmlText] = useState("");
@@ -23,28 +26,29 @@ export function DynamicXMLViewer(onSelection) {
 
     return (
         <Fragment>
-            <div className="h-100 d-flex flex-column xml-container">
-                <div className="d-flex">
-                <span className="ms-auto p-2 d-inline-flex">
-                    <div className="switcher" onChange={onToolSelect}>
-                          <input type="radio" name="view-toggle" value="raw" id="raw" className="switcherxml__input switcherxml__input--raw" />
-                          <label htmlFor="raw" className="switcher__label">Raw</label>
+            <div className="h-100 d-flex flex-column">
+                <div className="d-flex tools">
+                    <Button variant="light" title={'export XML'} onClick><FontAwesomeIcon icon={solid("file-export")} /></Button>
+                    <span className="ms-auto p-2 d-inline-flex">
+                        <div className="switcher" onChange={onToolSelect}>
+                              <input type="radio" name="view-toggle" value="raw" id="raw" className="switcherxml__input switcherxml__input--raw" />
+                              <label htmlFor="raw" className="switcher__label">Raw</label>
 
-                          <input type="radio" name="view-toggle" value="render" id="render" className="switcherxml__input switcherxml__input--render" defaultChecked />
-                          <label htmlFor="render" className="switcher__label">Render</label>
+                              <input type="radio" name="view-toggle" value="render" id="render" className="switcherxml__input switcherxml__input--render" defaultChecked />
+                              <label htmlFor="render" className="switcher__label">Render</label>
 
-                          <span className="switcher__toggle"></span>
-                    </div>
+                              <span className="switcher__toggle"></span>
+                        </div>
 
-                </span>
+                    </span>
                 </div>
-                {showRender ? (
-                    <XmlHtmlRenderer xmlString={xmlText} onSelection={onSelection} />
-                ) : (
-                    <XMLViewer collapsible="true" initalCollapsedDepth="3" xml={xmlText} />
-                )
-
-                }
+                <div className={"xml-container"}>
+                    {showRender ? (
+                        <XmlHtmlRenderer xmlString={xmlText} onSelection={onSelection} />
+                    ) : (
+                        <XMLViewer collapsible="true" initalCollapsedDepth="3" xml={xmlText} />
+                    )}
+                </div>
 
             </div>
         </Fragment>
@@ -52,8 +56,37 @@ export function DynamicXMLViewer(onSelection) {
     )
 }
 
+// This could potentially make things easier, but it doesn't really work
+const CETEIceanRenderer = ({xmlString, onSelection}) => {
+    const [CETEIResult, setCETEIResult] = useState(null);
+    const containerRef = useRef(null);
+
+    useEffect(() => {
+        if (!xmlString) {
+            return;
+        }
+        const CETEIObj = new CETEI({ ignoreFragmentId: true });
+        CETEIObj.makeHTML5(xmlString, data => {
+            setCETEIResult(new XMLSerializer().serializeToString(data));
+        });
+
+
+    }, [xmlString])
+
+    // Supposed to work like this:
+    //       <TEIRender data={tei}>
+    //         <TEIRoute el="tei-pb" component={Pb} />
+    //       </TEIRender>
+    return (
+    <div ref={containerRef} dangerouslySetInnerHTML={{__html: CETEIResult}}>
+    </div>
+    );
+}
+
 const XmlHtmlRenderer = ({ xmlString, onSelection }) => {
     const [xmlHtml, setXmlHtml] = useState(null);
+    const [selectedElement, setSelectedElement] = useState(null);
+    const [prevSelectedElement, setPrevSelectedElement] = useState(null);
     const containerRef = useRef(null);
 
     useEffect(() => {
@@ -126,11 +159,19 @@ const XmlHtmlRenderer = ({ xmlString, onSelection }) => {
 
     useEffect(() => {
         if (!onSelection || !xmlString) return;
-        // TODO: why is this in two levels?
-        console.log(onSelection.onSelection)
-        const element = containerRef.current.querySelector(`[facs="#${onSelection.onSelection}"]`)
-        console.log(element)
+        // TODO: why is this down two levels?
+        // console.log(onSelection.onSelection)
+        setSelectedElement(containerRef.current.querySelector(`[facs="#${onSelection.onSelection}"]`))
     }, [onSelection])
 
-    return <div ref={containerRef}>{xmlHtml}</div>;
+    useEffect(() => {
+        if (selectedElement) {
+            if (prevSelectedElement) prevSelectedElement.classList.remove("highlighted");
+            selectedElement.classList.add("highlighted");
+            scrollIntoView(selectedElement, {block: "nearest", inline: "nearest"});
+            setPrevSelectedElement(selectedElement);
+        }
+    }, [selectedElement])
+
+    return <div ref={containerRef} className={"xml-container"}>{xmlHtml}</div>;
 };
