@@ -1,6 +1,6 @@
 import React, {Fragment, useEffect, useRef, useState} from 'react'
 import XMLViewer from 'react-xml-viewer'
-import xmlFile from './../assets/oxen.xml'
+import xmlFile from './../assets/sample-dutch.xml'
 import CETEI from 'CETEIcean'
 import {Button} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -91,7 +91,7 @@ const XmlHtmlRenderer = ({ xmlString, onSelection, setSelection }) => {
 
     // if user selects from the text
     const handleClick = (e) => {
-        setSelection(e.target.getAttribute('facs').slice(1))
+        if (e.target.getAttribute('facs')) setSelection(e.target.getAttribute('facs').slice(1))
     }
 
     useEffect(() => {

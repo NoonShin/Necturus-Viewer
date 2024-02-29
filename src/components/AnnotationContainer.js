@@ -1,3 +1,4 @@
+import pic from '../assets/0015_KBR_1805-08_5r.jpeg'
 import React from "react";
 import { getAnnotationsFromXml } from '../util/annotation-util'
 import {
@@ -44,19 +45,6 @@ function AnnotationContainer({onSelection, setSelection}) {
                 readOnly: true
             });
 
-            // Attach event handlers here
-            annotorious.on('createAnnotation', annotation => {
-                console.log('created', annotation);
-            });
-
-            annotorious.on('updateAnnotation', (annotation, previous) => {
-                console.log('updated', annotation, previous);
-            });
-
-            annotorious.on('deleteAnnotation', annotation => {
-                console.log('deleted', annotation);
-            });
-
             annotorious.on('selectAnnotation', function(annotation, element) {
                 setSelection(element.getAttribute('data-id'));
             });
@@ -77,22 +65,6 @@ function AnnotationContainer({onSelection, setSelection}) {
         if (anno) anno.selectAnnotation(onSelection)
     }, [onSelection])
 
-    // Toggles current tool + button label
-    const toggleTool = () => {
-        if (tool === 'rect') {
-            setTool('polygon');
-            anno.setDrawingTool('polygon');
-        } else {
-            setTool('rect');
-            anno.setDrawingTool('rect');
-        }
-    }
-
-    function onToolSelect(e) {
-        setPanOrDraw(e.target.value);
-        // TODO: figure out why this works the wrong way around
-        anno.readOnly = panOrDraw === 'draw';
-    }
 
     useEffect(() => {
         const configuration = {
@@ -143,25 +115,18 @@ function AnnotationContainer({onSelection, setSelection}) {
                             <Button variant="light" title={'reset zoom'} onClick={() => resetTransform()}><FontAwesomeIcon icon={solid("magnifying-glass")} /></Button>
                             <Button variant="light" title={'center view'} onClick={() => centerView()}><FontAwesomeIcon icon={solid("magnifying-glass-location")} /></Button>
                             <Button variant="light" title={'drag and move'} className={'drag-handle'}><FontAwesomeIcon icon={solid("up-down-left-right")} /></Button>
-                            <span className="ms-auto p-2 d-inline-flex">
-                            <div className="switcher" onChange={onToolSelect}>
-                                  <input type="radio" name="tool-toggle" value="draw" id="draw" className="switcher__input switcher__input--draw" />
-                                  <label htmlFor="draw" className="switcher__label">Draw</label>
 
-                                  <input type="radio" name="tool-toggle" value="pan" id="pan" className="switcher__input switcher__input--pan" defaultChecked />
-                                  <label htmlFor="pan" className="switcher__label">Pan</label>
-
-                                  <span className="switcher__toggle"></span>
-                            </div>
-
-                            </span>
                         </div>
                         <div className="annotation">
                         <TransformComponent wrapperStyle={{ maxWidth: "100%", height:"100%", overflow: "hidden"}}>
 
+                            {/*<img className=""*/}
+                            {/*ref={imgEl}*/}
+                            {/*src={imgURL}/>*/}
+
                             <img className=""
-                            ref={imgEl}
-                            src={imgURL}/>
+                                 ref={imgEl}
+                                 src={pic}/>
 
                         </TransformComponent>
                         </div>
