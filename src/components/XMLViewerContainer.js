@@ -59,12 +59,12 @@ export function XMLViewerContainer() {
                 >
                     <div key="1">
                         <div className="border bg-light h-100 p-3">
-                            <DynamicXMLViewer onSelection={selectedZone} />
+                            <DynamicXMLViewer onSelection={selectedZone} setSelection={setSelectedZone} />
                         </div>
                     </div>
                     <div key="2">
                         <div className="border bg-light h-100 p-3">
-                            <AnnotationContainer onSelection={setSelectedZone}/>
+                            <AnnotationContainer onSelection={selectedZone} setSelection={setSelectedZone}/>
                         </div>
                     </div>
 

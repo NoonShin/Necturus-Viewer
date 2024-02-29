@@ -15,7 +15,7 @@ import axios from "axios";
 import Cookies from "universal-cookie";
 const cookies = new Cookies();
 
-function AnnotationContainer({onSelection}) {
+function AnnotationContainer({onSelection, setSelection}) {
 
     // Ref to the image DOM element
     const imgEl = useRef();
@@ -58,7 +58,7 @@ function AnnotationContainer({onSelection}) {
             });
 
             annotorious.on('selectAnnotation', function(annotation, element) {
-                onSelection(element.getAttribute('data-id'));
+                setSelection(element.getAttribute('data-id'));
             });
 
             annotorious.loadAnnotations(createAnnotationUrl());
@@ -72,6 +72,10 @@ function AnnotationContainer({onSelection}) {
             annotorious.destroy();
         };
     }, []);
+
+    useEffect(() => {
+        if (anno) anno.selectAnnotation(onSelection)
+    }, [onSelection])
 
     // Toggles current tool + button label
     const toggleTool = () => {

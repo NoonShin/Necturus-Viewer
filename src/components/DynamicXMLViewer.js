@@ -8,7 +8,7 @@ import {solid} from "@fortawesome/fontawesome-svg-core/import.macro";
 import { scrollIntoView } from "seamless-scroll-polyfill";
 
 
-export function DynamicXMLViewer(onSelection) {
+export function DynamicXMLViewer({onSelection, setSelection}) {
     const [xmlText, setXmlText] = useState("");
     const [showRender, setShowRender] = useState(true);
 
@@ -44,7 +44,7 @@ export function DynamicXMLViewer(onSelection) {
                 </div>
                 <div className={"xml-container"}>
                     {showRender ? (
-                        <XmlHtmlRenderer xmlString={xmlText} onSelection={onSelection} />
+                        <XmlHtmlRenderer xmlString={xmlText} onSelection={onSelection} setSelection={setSelection} />
                     ) : (
                         <XMLViewer collapsible="true" initalCollapsedDepth="3" xml={xmlText} />
                     )}
@@ -83,11 +83,16 @@ const CETEIceanRenderer = ({xmlString, onSelection}) => {
     );
 }
 
-const XmlHtmlRenderer = ({ xmlString, onSelection }) => {
+const XmlHtmlRenderer = ({ xmlString, onSelection, setSelection }) => {
     const [xmlHtml, setXmlHtml] = useState(null);
     const [selectedElement, setSelectedElement] = useState(null);
     const [prevSelectedElement, setPrevSelectedElement] = useState(null);
     const containerRef = useRef(null);
+
+    // if user selects from the text
+    const handleClick = (e) => {
+        setSelection(e.target.getAttribute('facs').slice(1))
+    }
 
     useEffect(() => {
         if (!xmlString) {
@@ -159,9 +164,7 @@ const XmlHtmlRenderer = ({ xmlString, onSelection }) => {
 
     useEffect(() => {
         if (!onSelection || !xmlString) return;
-        // TODO: why is this down two levels?
-        // console.log(onSelection.onSelection)
-        setSelectedElement(containerRef.current.querySelector(`[facs="#${onSelection.onSelection}"]`))
+        setSelectedElement(containerRef.current.querySelector(`[facs="#${onSelection}"]`))
     }, [onSelection])
 
     useEffect(() => {
@@ -173,5 +176,5 @@ const XmlHtmlRenderer = ({ xmlString, onSelection }) => {
         }
     }, [selectedElement])
 
-    return <div ref={containerRef} className={"xml-container"}>{xmlHtml}</div>;
+    return <div ref={containerRef} onClick={handleClick} className={"xml-container"}>{xmlHtml}</div>;
 };
