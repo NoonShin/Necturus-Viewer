@@ -20,7 +20,6 @@ function ImageComponent({onSelection, setSelection, transformComponentRef}) {
     // Ref for finding selected element
     const containerRef = useRef();
     const instance = useTransformContext();
-    const [prevSelectedElementID, setPrevSelectedElementID] = useState(null);
 
     // Ref to the image DOM element
     const imgEl = useRef();
@@ -30,6 +29,11 @@ function ImageComponent({onSelection, setSelection, transformComponentRef}) {
     const [ anno, setAnno ] = useState();
 
     const [imgURL, setImgURL] = useState('');
+
+    // Remove highlight from text if user clicks outside of annotation
+    const handleAnnoClick= (e) => {
+        if (e.target.tagName !== 'polygon') setSelection('')
+    }
 
     // Init Annotorious when the component
     // mounts, and keep the current 'anno'
@@ -48,19 +52,6 @@ function ImageComponent({onSelection, setSelection, transformComponentRef}) {
             annotorious.on('selectAnnotation', function(annotation, element) {
                 setSelection(element.getAttribute('data-id'));
             });
-
-            // TODO
-            annotorious.on('cancelSelected', function(annotation) {
-                // console.log(annotation)
-
-                // console.log("canceled", annotation)
-                if (annotorious.getSelected()) {
-                    console.log(annotorious.getSelected().id, onSelection)
-                    if (annotorious.getSelected().id === onSelection) {
-                        console.log('equal')
-                    }
-                }
-            })
 
             annotorious.loadAnnotations(createAnnotationUrl());
         }
@@ -82,7 +73,6 @@ function ImageComponent({onSelection, setSelection, transformComponentRef}) {
             if (transformComponentRef.current) {
                 const { zoomToElement } = transformComponentRef.current;
                 zoomToElement(containerRef.current?.querySelector(`[data-id="${onSelection}"]`), instance.transformState.scale);
-                console.log(onSelection, 'itsme')
             }
         }
     }, [onSelection])
@@ -114,7 +104,7 @@ function ImageComponent({onSelection, setSelection, transformComponentRef}) {
     }
 
     return (
-        <div className="annotation" ref={containerRef}>
+        <div className="annotation" ref={containerRef} onClick={handleAnnoClick}>
             <TransformComponent wrapperStyle={{ maxWidth: "100%", height:"100%", overflow: "hidden"}}>
 
                 {/*<img className=""*/}

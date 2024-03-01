@@ -165,7 +165,7 @@ const XmlHtmlRenderer = ({ xmlString, onSelection, setSelection }) => {
     }, [xmlString]);
 
     useEffect(() => {
-        if (!onSelection || !xmlString) return;
+        if (!xmlString) return;
         setSelectedElement(containerRef.current?.querySelector(`[facs="#${onSelection}"]`))
     }, [onSelection])
 
