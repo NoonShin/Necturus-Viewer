@@ -29,6 +29,8 @@ export function DynamicXMLViewer({onSelection, setSelection}) {
             <div className="h-100 d-flex flex-column">
                 <div className="d-flex tools">
                     <Button variant="light" title={'export XML'} onClick><FontAwesomeIcon icon={solid("file-export")} /></Button>
+                    <Button variant="light" title={'drag and move'} className={'drag-handle'}><FontAwesomeIcon icon={solid("up-down-left-right")} /></Button>
+
                     <span className="ms-auto p-2 d-inline-flex">
                         <div className="switcher" onChange={onToolSelect}>
                               <input type="radio" name="view-toggle" value="raw" id="raw" className="switcherxml__input switcherxml__input--raw" />
@@ -164,12 +166,12 @@ const XmlHtmlRenderer = ({ xmlString, onSelection, setSelection }) => {
 
     useEffect(() => {
         if (!onSelection || !xmlString) return;
-        setSelectedElement(containerRef.current.querySelector(`[facs="#${onSelection}"]`))
+        setSelectedElement(containerRef.current?.querySelector(`[facs="#${onSelection}"]`))
     }, [onSelection])
 
     useEffect(() => {
+        if (prevSelectedElement) prevSelectedElement.classList.remove("highlighted");
         if (selectedElement) {
-            if (prevSelectedElement) prevSelectedElement.classList.remove("highlighted");
             selectedElement.classList.add("highlighted");
             scrollIntoView(selectedElement, {block: "nearest", inline: "nearest"});
             setPrevSelectedElement(selectedElement);
