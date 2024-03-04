@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Axolotl-Viewer/static/css/main.1edb5ce8.css",
-    "main.js": "/Axolotl-Viewer/static/js/main.edff5216.js",
+    "main.js": "/Axolotl-Viewer/static/js/main.26cd8740.js",
     "static/js/787.1c8c503e.chunk.js": "/Axolotl-Viewer/static/js/787.1c8c503e.chunk.js",
     "static/media/0015_KBR_1805-08_5r.jpeg": "/Axolotl-Viewer/static/media/0015_KBR_1805-08_5r.cdb2cb3b40fbf446892b.jpeg",
     "static/media/logo.png": "/Axolotl-Viewer/static/media/logo.93057cafde182e0ca2fc.png",
     "static/media/sample-dutch.xml": "/Axolotl-Viewer/static/media/sample-dutch.a739486b36e6a7fdb78d.xml",
     "index.html": "/Axolotl-Viewer/index.html",
     "main.1edb5ce8.css.map": "/Axolotl-Viewer/static/css/main.1edb5ce8.css.map",
-    "main.edff5216.js.map": "/Axolotl-Viewer/static/js/main.edff5216.js.map",
+    "main.26cd8740.js.map": "/Axolotl-Viewer/static/js/main.26cd8740.js.map",
     "787.1c8c503e.chunk.js.map": "/Axolotl-Viewer/static/js/787.1c8c503e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1edb5ce8.css",
-    "static/js/main.edff5216.js"
+    "static/js/main.26cd8740.js"
   ]
 }
