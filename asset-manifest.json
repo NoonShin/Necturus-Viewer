@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Axolotl-Viewer/static/css/main.1edb5ce8.css",
-    "main.js": "/Axolotl-Viewer/static/js/main.a0a3cbb2.js",
-    "static/js/787.1c8c503e.chunk.js": "/Axolotl-Viewer/static/js/787.1c8c503e.chunk.js",
-    "static/media/0015_KBR_1805-08_5r.jpeg": "/Axolotl-Viewer/static/media/0015_KBR_1805-08_5r.cdb2cb3b40fbf446892b.jpeg",
-    "static/media/logo.png": "/Axolotl-Viewer/static/media/logo.93057cafde182e0ca2fc.png",
-    "static/media/sample-dutch.xml": "/Axolotl-Viewer/static/media/sample-dutch.a739486b36e6a7fdb78d.xml",
-    "index.html": "/Axolotl-Viewer/index.html",
-    "main.1edb5ce8.css.map": "/Axolotl-Viewer/static/css/main.1edb5ce8.css.map",
-    "main.a0a3cbb2.js.map": "/Axolotl-Viewer/static/js/main.a0a3cbb2.js.map",
-    "787.1c8c503e.chunk.js.map": "/Axolotl-Viewer/static/js/787.1c8c503e.chunk.js.map"
+    "main.css": "/Necturus-Viewer/static/css/main.1edb5ce8.css",
+    "main.js": "/Necturus-Viewer/static/js/main.03f7ee8d.js",
+    "static/js/787.1c8c503e.chunk.js": "/Necturus-Viewer/static/js/787.1c8c503e.chunk.js",
+    "static/media/0015_KBR_1805-08_5r.jpeg": "/Necturus-Viewer/static/media/0015_KBR_1805-08_5r.cdb2cb3b40fbf446892b.jpeg",
+    "static/media/logo.png": "/Necturus-Viewer/static/media/logo.93057cafde182e0ca2fc.png",
+    "static/media/sample-dutch.xml": "/Necturus-Viewer/static/media/sample-dutch.a739486b36e6a7fdb78d.xml",
+    "index.html": "/Necturus-Viewer/index.html",
+    "main.1edb5ce8.css.map": "/Necturus-Viewer/static/css/main.1edb5ce8.css.map",
+    "main.03f7ee8d.js.map": "/Necturus-Viewer/static/js/main.03f7ee8d.js.map",
+    "787.1c8c503e.chunk.js.map": "/Necturus-Viewer/static/js/787.1c8c503e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1edb5ce8.css",
-    "static/js/main.a0a3cbb2.js"
+    "static/js/main.03f7ee8d.js"
   ]
 }
