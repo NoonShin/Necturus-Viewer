@@ -27,7 +27,7 @@ export function Login() {
                     path: "/",
                     maxAge: 2 * 60 * 60 * 1000
                 });
-                window.location.href = "/edit";
+                window.location.href = "#/edit";
             })
             .catch((error) => {
                 setLoginFailed(true);

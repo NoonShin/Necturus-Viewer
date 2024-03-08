@@ -18,8 +18,9 @@ function App() {
     return (
         <Fragment>
             <Routes>
-                <Route exact path="/" element={cookies.get("TOKEN") ? <Navigate to='/edit' replace /> : <Login />} />
-                <Route exact path="/edit" element={
+                <Route path="/" element={cookies.get("TOKEN") ? <Navigate to='/edit' replace /> : <Login />} />
+                <Route path="/login" element={cookies.get("TOKEN") ? <Navigate to='/edit' replace /> : <Login />} />
+                <Route path="/edit" element={
                     <ProtectedRoutes>
                         <XMLViewerContainer />
                     </ProtectedRoutes>

@@ -33,7 +33,7 @@ export function XMLViewerContainer() {
 
     function handleLogout() {
         cookies.remove("TOKEN", { path: "/" });
-        window.location.href = '/'
+        window.location.href = '#/login'
     }
 
     function transkribusModal() {
