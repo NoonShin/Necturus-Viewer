@@ -34,8 +34,15 @@ function ImageComponent({onSelection, setSelection, transformComponentRef, curre
     }
 
     function createAnnotationUrl() {
-        const blob = new Blob([JSON.stringify(annoZones)], {type: "application/json"})
-        return(URL.createObjectURL(blob));
+        try {
+            const blob = new Blob([JSON.stringify(annoZones)], {type: "application/json"})
+            return(URL.createObjectURL(blob));
+        }
+        catch (e) {
+            console.error(e.message);
+            return('');
+        }
+
     }
 
     // Init Annotorious when the component
@@ -81,28 +88,10 @@ function ImageComponent({onSelection, setSelection, transformComponentRef, curre
     }, [onSelection])
 
 
-    // useEffect(() => {
-    //     const configuration = {
-    //         method: "get",
-    //         url: "https://axolotl-server-db50b102d293.herokuapp.com/image",
-    //         headers: {
-    //             "Authorization": `Bearer ${cookies.get("TOKEN")}`
-    //         },
-    //         responseType: 'blob'
-    //     };
-    //     axios(configuration)
-    //         .then((response) => {
-    //             setImgURL(URL.createObjectURL(response.data));
-    //         })
-    //         .catch((error) => {
-    //             console.log(error)
-    //         })
-    // }, [])
-
     useEffect(() => {
 
         if (!currentPage) setImgURL('');
-        else setImgURL(`/files/img/${currentPage}.jpg`);
+        else setImgURL(`${process.env.PUBLIC_URL}/files/img/${currentPage}.jpg`);
     }, [currentPage]);
 
     return (
@@ -112,10 +101,6 @@ function ImageComponent({onSelection, setSelection, transformComponentRef, curre
                 <img className=""
                 ref={imgEl}
                 src={imgURL}/>
-
-                {/*<img className=""*/}
-                {/*     ref={imgEl}*/}
-                {/*     src={pic}/>*/}
 
             </TransformComponent>
         </div>

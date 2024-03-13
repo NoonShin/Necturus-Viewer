@@ -17,9 +17,14 @@ export function DynamicXMLViewer({onSelection, setSelection, currentPage, setAnn
 
     useEffect(() => {
         const loadXmltext = async () => {
-            const response = await fetch(`/files/xml/${currentPage}.xml`);
-            const data = await response.text();
-            setXmlText(data);
+            try {
+                const response = await fetch(`${process.env.PUBLIC_URL}/files/xml/${currentPage}.xml`);
+                const data = await response.text();
+                setXmlText(data);
+            }
+            catch (e) {
+             console.error(e)
+            }
         };
         if (!currentPage) setXmlText('');
         else loadXmltext();

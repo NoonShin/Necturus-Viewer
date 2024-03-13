@@ -47,9 +47,14 @@ export function XMLViewerContainer() {
 
     useEffect(() => {
         const loadFilesInfo = async () => {
-            const response = await fetch('/files_info.json');
-            const data = await response.json();
-            setFilesInfo(data);
+            try {
+                const response = await fetch(`${process.env.PUBLIC_URL}/files_info.json`);
+                const data = await response.json();
+                setFilesInfo(data);
+            }
+            catch (e) {
+                console.error(e)
+            }
         };
         loadFilesInfo();
     }, []);
