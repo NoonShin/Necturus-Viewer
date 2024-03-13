@@ -1,4 +1,4 @@
-import {Fragment, useState} from "react";
+import {Fragment, useEffect, useState} from "react";
 import * as AppUtil from "../util/app-util";
 import Container from "react-bootstrap/Container";
 import AnnotationContainer from "./AnnotationContainer";
@@ -7,6 +7,7 @@ import Cookies from "universal-cookie";
 import {CustomNavbar} from "./CustomNavbar";
 import {ImportModal} from "./ImportModal";
 import {DynamicXMLViewer} from "./DynamicXMLViewer";
+import {CustomPagination} from "./CustomPagination";
 const cookies = new Cookies();
 
 
@@ -15,6 +16,10 @@ const ResponsiveGridLayout = WidthProvider(Responsive);
 export function XMLViewerContainer() {
     const [selectedZone, setSelectedZone] = useState("");
     const [layout, setLayout] = useState(AppUtil.sideBySideLayout);
+
+    const [filesInfo, setFilesInfo] = useState();
+    const [currentPage, setCurrentPage] = useState(1);
+    const [annoZones, setAnnoZones] = useState()
 
     const [show, setShow] = useState(false);
 
@@ -40,6 +45,18 @@ export function XMLViewerContainer() {
         setShow(!(show));
     }
 
+    useEffect(() => {
+        const loadFilesInfo = async () => {
+            const response = await fetch('/files_info.json');
+            const data = await response.json();
+            setFilesInfo(data);
+        };
+        loadFilesInfo();
+    }, []);
+
+    useEffect(() => {
+
+    }, [currentPage])
 
     return (
         <Fragment>
@@ -59,17 +76,19 @@ export function XMLViewerContainer() {
                 >
                     <div key="1">
                         <div className="border bg-light h-100 p-3">
-                            <DynamicXMLViewer onSelection={selectedZone} setSelection={setSelectedZone} />
+                            <DynamicXMLViewer onSelection={selectedZone} setSelection={setSelectedZone} currentPage={filesInfo ? filesInfo[currentPage-1] : ''} setAnnoZones={setAnnoZones} />
                         </div>
                     </div>
                     <div key="2">
                         <div className="border bg-light h-100 p-3">
-                            <AnnotationContainer onSelection={selectedZone} setSelection={setSelectedZone}/>
+                            <AnnotationContainer onSelection={selectedZone} setSelection={setSelectedZone} currentPage={filesInfo ? filesInfo[currentPage-1] : ''} annoZones={annoZones}/>
                         </div>
                     </div>
 
                 </ResponsiveGridLayout>
+                <CustomPagination currentPage={currentPage} setCurrentPage={setCurrentPage} totalPages={filesInfo ? filesInfo.length : 0}/>
             </Container>
+
         </Fragment>
     )
 }

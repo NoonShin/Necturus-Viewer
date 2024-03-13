@@ -11,7 +11,7 @@ export function CustomNavbar({loggedIn=false, helperFunctions={}}) {
             <Container>
                 <Navbar.Brand>
                     <span><img src={logo} alt={""} style={{"height": 64, "width": 64, "marginRight": "10px"}}/></span>
-                    Axolotl XML Viewer
+                    Necturus XML Viewer
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 {loggedIn ?

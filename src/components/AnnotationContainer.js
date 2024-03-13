@@ -1,6 +1,4 @@
-import pic from '../assets/0015_KBR_1805-08_5r.jpeg'
 import React from "react";
-import { getAnnotationsFromXml } from '../util/annotation-util'
 import {
     TransformWrapper,
     TransformComponent, useTransformContext,
@@ -16,7 +14,7 @@ import axios from "axios";
 import Cookies from "universal-cookie";
 const cookies = new Cookies();
 
-function ImageComponent({onSelection, setSelection, transformComponentRef}) {
+function ImageComponent({onSelection, setSelection, transformComponentRef, currentPage, annoZones}) {
     // Ref for finding selected element
     const containerRef = useRef();
     const instance = useTransformContext();
@@ -33,6 +31,11 @@ function ImageComponent({onSelection, setSelection, transformComponentRef}) {
     // Remove highlight from text if user clicks outside of annotation
     const handleAnnoClick= (e) => {
         if (e.target.tagName !== 'polygon') setSelection('')
+    }
+
+    function createAnnotationUrl() {
+        const blob = new Blob([JSON.stringify(annoZones)], {type: "application/json"})
+        return(URL.createObjectURL(blob));
     }
 
     // Init Annotorious when the component
@@ -63,7 +66,7 @@ function ImageComponent({onSelection, setSelection, transformComponentRef}) {
         return () => {
             annotorious.destroy();
         };
-    }, []);
+    }, [annoZones]);
 
     // Handling selection coming from the text side
     useEffect(() => {
@@ -78,49 +81,48 @@ function ImageComponent({onSelection, setSelection, transformComponentRef}) {
     }, [onSelection])
 
 
-    useEffect(() => {
-        const configuration = {
-            method: "get",
-            url: "https://axolotl-server-db50b102d293.herokuapp.com/image",
-            headers: {
-                "Authorization": `Bearer ${cookies.get("TOKEN")}`
-            },
-            responseType: 'blob'
-        };
-        axios(configuration)
-            .then((response) => {
-                setImgURL(URL.createObjectURL(response.data));
-            })
-            .catch((error) => {
-                console.log(error)
-            })
-    }, [])
+    // useEffect(() => {
+    //     const configuration = {
+    //         method: "get",
+    //         url: "https://axolotl-server-db50b102d293.herokuapp.com/image",
+    //         headers: {
+    //             "Authorization": `Bearer ${cookies.get("TOKEN")}`
+    //         },
+    //         responseType: 'blob'
+    //     };
+    //     axios(configuration)
+    //         .then((response) => {
+    //             setImgURL(URL.createObjectURL(response.data));
+    //         })
+    //         .catch((error) => {
+    //             console.log(error)
+    //         })
+    // }, [])
 
-    function createAnnotationUrl() {
-        const annotationJson = getAnnotationsFromXml('path')
-        const blob = new Blob([JSON.stringify(annotationJson)], {type: "application/json"})
-        // const blob = new Blob([JSON.stringify('')], {type: "application/json"})
-        return(URL.createObjectURL(blob));
-    }
+    useEffect(() => {
+
+        if (!currentPage) setImgURL('');
+        else setImgURL(`/files/img/${currentPage}.jpg`);
+    }, [currentPage]);
 
     return (
         <div className="annotation" ref={containerRef} onClick={handleAnnoClick}>
             <TransformComponent wrapperStyle={{ maxWidth: "100%", height:"100%", overflow: "hidden"}}>
 
-                {/*<img className=""*/}
-                {/*ref={imgEl}*/}
-                {/*src={imgURL}/>*/}
-
                 <img className=""
-                     ref={imgEl}
-                     src={pic}/>
+                ref={imgEl}
+                src={imgURL}/>
+
+                {/*<img className=""*/}
+                {/*     ref={imgEl}*/}
+                {/*     src={pic}/>*/}
 
             </TransformComponent>
         </div>
     );
 }
 
-function AnnotationContainer({onSelection, setSelection}) {
+function AnnotationContainer({onSelection, setSelection, currentPage, annoZones}) {
     // Ref for zooming to element
     const transformComponentRef = useRef();
 
@@ -144,7 +146,7 @@ function AnnotationContainer({onSelection, setSelection}) {
                             <Button variant="light" title={'drag and move'} className={'drag-handle'}><FontAwesomeIcon icon={solid("up-down-left-right")} /></Button>
 
                         </div>
-                        <ImageComponent onSelection={onSelection} setSelection={setSelection} transformComponentRef={transformComponentRef}/>
+                        <ImageComponent onSelection={onSelection} setSelection={setSelection} transformComponentRef={transformComponentRef} currentPage={currentPage} annoZones={annoZones} />
 
                     </React.Fragment>
                 )}

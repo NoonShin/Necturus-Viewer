@@ -1,14 +1,13 @@
 import React, {Fragment, useEffect, useRef, useState} from 'react'
 import XMLViewer from 'react-xml-viewer'
-import xmlFile from './../assets/sample-dutch.xml'
-import CETEI from 'CETEIcean'
 import {Button} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {solid} from "@fortawesome/fontawesome-svg-core/import.macro";
 import { scrollIntoView } from "seamless-scroll-polyfill";
+import {convertZonesToJson} from "../util/annotation-util"
 
 
-export function DynamicXMLViewer({onSelection, setSelection}) {
+export function DynamicXMLViewer({onSelection, setSelection, currentPage, setAnnoZones}) {
     const [xmlText, setXmlText] = useState("");
     const [showRender, setShowRender] = useState(true);
 
@@ -17,12 +16,14 @@ export function DynamicXMLViewer({onSelection, setSelection}) {
     }
 
     useEffect(() => {
-        fetch(xmlFile)
-            .then(response => response.text())
-            .then(data => {
-                setXmlText(data)
-            })
-    });
+        const loadXmltext = async () => {
+            const response = await fetch(`/files/xml/${currentPage}.xml`);
+            const data = await response.text();
+            setXmlText(data);
+        };
+        if (!currentPage) setXmlText('');
+        else loadXmltext();
+    }, [currentPage]);
 
     return (
         <Fragment>
@@ -46,7 +47,7 @@ export function DynamicXMLViewer({onSelection, setSelection}) {
                 </div>
                 <div className={"xml-container"}>
                     {showRender ? (
-                        <XmlHtmlRenderer xmlString={xmlText} onSelection={onSelection} setSelection={setSelection} />
+                        <XmlHtmlRenderer xmlString={xmlText} onSelection={onSelection} setSelection={setSelection} setAnnoZones={setAnnoZones} />
                     ) : (
                         <XMLViewer collapsible="true" initalCollapsedDepth="3" xml={xmlText} />
                     )}
@@ -58,34 +59,7 @@ export function DynamicXMLViewer({onSelection, setSelection}) {
     )
 }
 
-// This could potentially make things easier, but it doesn't really work
-const CETEIceanRenderer = ({xmlString, onSelection}) => {
-    const [CETEIResult, setCETEIResult] = useState(null);
-    const containerRef = useRef(null);
-
-    useEffect(() => {
-        if (!xmlString) {
-            return;
-        }
-        const CETEIObj = new CETEI({ ignoreFragmentId: true });
-        CETEIObj.makeHTML5(xmlString, data => {
-            setCETEIResult(new XMLSerializer().serializeToString(data));
-        });
-
-
-    }, [xmlString])
-
-    // Supposed to work like this:
-    //       <TEIRender data={tei}>
-    //         <TEIRoute el="tei-pb" component={Pb} />
-    //       </TEIRender>
-    return (
-    <div ref={containerRef} dangerouslySetInnerHTML={{__html: CETEIResult}}>
-    </div>
-    );
-}
-
-const XmlHtmlRenderer = ({ xmlString, onSelection, setSelection }) => {
+const XmlHtmlRenderer = ({ xmlString, onSelection, setSelection, setAnnoZones }) => {
     const [xmlHtml, setXmlHtml] = useState(null);
     const [selectedElement, setSelectedElement] = useState(null);
     const [prevSelectedElement, setPrevSelectedElement] = useState(null);
@@ -113,6 +87,11 @@ const XmlHtmlRenderer = ({ xmlString, onSelection, setSelection }) => {
             return;
         }
 
+        const extractZones = (doc) => {
+            const zones = doc.getElementsByTagName('zone');
+            setAnnoZones(convertZonesToJson(zones));
+        }
+
         // Convert the XML DOM into React elements
         const renderXmlAsReact = (node) => {
             if (node.nodeType === Node.TEXT_NODE) {
@@ -131,6 +110,10 @@ const XmlHtmlRenderer = ({ xmlString, onSelection, setSelection }) => {
                 const children = Array.from(node.childNodes).map((child) => renderXmlAsReact(child));
                 const attributes = Array.from(node.attributes).reduce((acc, { name, value }) => {
                     if (name === 'facs') acc['key'] = value;
+                    if (name === 'style') {
+                        // TODO: Transform the style appropriately
+                        return acc;
+                    }
                     acc[name] = value;
                     return acc;
                 }, {});
@@ -160,6 +143,7 @@ const XmlHtmlRenderer = ({ xmlString, onSelection, setSelection }) => {
             return null;
         };
 
+        extractZones(xmlDoc);
         const xmlHtml = renderXmlAsReact(xmlDoc.documentElement);
         setXmlHtml(xmlHtml);
     }, [xmlString]);

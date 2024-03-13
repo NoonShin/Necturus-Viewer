@@ -203,3 +203,51 @@
 .a9s-annotation.selected .a9s-inner, .a9s-selection .a9s-inner {
   stroke-width: 10px;
 }
+
+.pagination {
+  position: fixed;
+  bottom: 40px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content; /* Adjust width based on content */
+  background-color: #f8f9fa; /* Light grey */
+  padding: 10px 20px;
+}
+
+.pagination ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.pagination button {
+  background-color: #666; /* Medium grey */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #444; /* Darker grey */
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination .active button {
+  background-color: #444; /* Darker grey */
+}
+
+.pagination .ellipsis {
+  margin-right: 5px;
+  margin-top: 5px;
+}
