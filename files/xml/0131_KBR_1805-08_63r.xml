@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt/>
+         <seriesStmt/>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="5186" lry="7123" xml:id="facs_131">
+         <graphic url="47180334.tiff" width="5186px" height="7123px"/>
+         <graphic url="https://files.transkribus.eu/Get?id=OGCWTAONEXWFTXNGPEKBIBRA&amp;fileType=view" width="5186px" height="7123px"/>
+         <zone points="832,405 2550,405 2550,657 832,657" rendition="TextRegion" xml:id="facs_131_region_1668614537107_2052" subtype="header">
+            <zone points="843,389 2442,389 2442,649 843,649" rendition="Line" xml:id="facs_131_line_1668614563800_2065"/>
+         </zone>
+         <zone points="685,786 2194,786 2194,2340 685,2340" rendition="TextRegion" xml:id="facs_131_region_1668614540885_2055" subtype="paragraph">
+            <zone points="722,714 2109,714 2109,950 722,950" rendition="Line" xml:id="facs_131_region_1668614540885_2055l1"/>
+            <zone points="726,879 2103,879 2103,1051 726,1051" rendition="Line" xml:id="facs_131_region_1668614540885_2055l2"/>
+            <zone points="738,974 2142,974 2142,1145 738,1145" rendition="Line" xml:id="facs_131_region_1668614540885_2055l3"/>
+            <zone points="728,1089 2142,1089 2142,1240 728,1240" rendition="Line" xml:id="facs_131_region_1668614540885_2055l4"/>
+            <zone points="736,1178 2178,1178 2178,1339 736,1339" rendition="Line" xml:id="facs_131_region_1668614540885_2055l5"/>
+            <zone points="712,1264 2184,1264 2184,1432 712,1432" rendition="Line" xml:id="facs_131_region_1668614540885_2055l6"/>
+            <zone points="722,1389 2156,1389 2156,1563 722,1563" rendition="Line" xml:id="facs_131_region_1668614540885_2055l7"/>
+            <zone points="712,1488 2107,1488 2107,1648 712,1648" rendition="Line" xml:id="facs_131_region_1668614540885_2055l8"/>
+            <zone points="704,1609 2156,1609 2156,1771 704,1771" rendition="Line" xml:id="facs_131_region_1668614540885_2055l9"/>
+            <zone points="704,1720 2135,1720 2135,1898 704,1898" rendition="Line" xml:id="facs_131_region_1668614540885_2055l10"/>
+            <zone points="692,1831 2135,1831 2135,1990 692,1990" rendition="Line" xml:id="facs_131_region_1668614540885_2055l11"/>
+            <zone points="712,1920 2150,1920 2150,2093 712,2093" rendition="Line" xml:id="facs_131_region_1668614540885_2055l12"/>
+            <zone points="698,2043 2160,2043 2160,2202 698,2202" rendition="Line" xml:id="facs_131_region_1668614540885_2055l13"/>
+            <zone points="696,2162 1518,2162 1518,2341 696,2341" rendition="Line" xml:id="facs_131_region_1668614540885_2055l14"/>
+         </zone>
+         <zone points="646,2466 2216,2466 2216,3185 646,3185" rendition="TextRegion" xml:id="facs_131_region_1668614543183_2058" subtype="footer">
+            <zone points="712,2444 2160,2444 2160,2632 712,2632" rendition="Line" xml:id="facs_131_region_1668614543183_2058l1"/>
+            <zone points="702,2585 2087,2585 2087,2724 702,2724" rendition="Line" xml:id="facs_131_region_1668614543183_2058l2"/>
+            <zone points="704,2704 2135,2704 2135,2833 704,2833" rendition="Line" xml:id="facs_131_region_1668614543183_2058l3"/>
+            <zone points="700,2789 2131,2789 2131,2936 700,2936" rendition="Line" xml:id="facs_131_region_1668614543183_2058l4"/>
+            <zone points="704,2906 2111,2906 2111,3047 704,3047" rendition="Line" xml:id="facs_131_region_1668614543183_2058l5"/>
+            <zone points="692,3023 1111,3023 1111,3170 692,3170" rendition="Line" xml:id="facs_131_region_1668614543183_2058l6"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body><div><pb facs="#facs_131" n="131" xml:id="img_0131"/><fw type="header" place="top" facs="#facs_131_region_1668614537107_2052">
+               <l facs="#facs_131_line_1668614563800_2065" n="N001">.iiij. boec gheet shier wt</l></fw>
+            <p facs="#facs_131_region_1668614540885_2055">
+               <l facs="#facs_131_region_1668614540885_2055l1" n="N001">doet . soe heescht men wedʼ uan ons dʼ</l>
+               <l facs="#facs_131_region_1668614540885_2055l2" n="N002">wi af uerblijdden . dat het bi berouwe</l>
+               <l facs="#facs_131_region_1668614540885_2055l3" n="N003">nessen thant uerlaten was . Hier ōme-</l>
+               <l facs="#facs_131_region_1668614540885_2055l4" n="N004">als wi bi derbeiden der tijt die ons ꝟleet</l>
+               <l facs="#facs_131_region_1668614540885_2055l5" n="N005">es moghen . e ons de inge uerbeidt al de</l>
+               <l facs="#facs_131_region_1668614540885_2055l6" n="N006">wile dat hi de mesdade ondersuect ons ōt-</l>
+               <l facs="#facs_131_region_1668614540885_2055l7" n="N007">beidt dat wi bekerē selen . laet ons bewe-</l>
+               <l facs="#facs_131_region_1668614540885_2055l8" n="N008">nen de hertheit onf gedachtē in tranē</l>
+               <l facs="#facs_131_region_1668614540885_2055l9" n="N009">formerē wi Jn onsen euenkerstēnē de-</l>
+               <l facs="#facs_131_region_1668614540885_2055l10" n="N010">gracie van goedertierenheidē . e ic segē</l>
+               <l facs="#facs_131_region_1668614540885_2055l11" n="N011">gebetrouwelec dat wi dus na de doot</l>
+               <l facs="#facs_131_region_1668614540885_2055l12" n="N012">niet behoeuen en selen der saligʼ offerā</l>
+               <l facs="#facs_131_region_1668614540885_2055l13" n="N013">den . eest dat wi vore ons doot selue gode</l>
+               <l facs="#facs_131_region_1668614540885_2055l14" n="N014">offerande sijn . Amen .</l></p><fw type="footer" place="bottom" facs="#facs_131_region_1668614543183_2058">
+               <l facs="#facs_131_region_1668614543183_2058l1" n="N001">Jnt zaer ons heren . ditsent driehon-</l>
+               <l facs="#facs_131_region_1668614543183_2058l2" n="N002">dert achtentachtich . op den derdē dach</l>
+               <l facs="#facs_131_region_1668614543183_2058l3" n="N003">na alre heilighen dach was dit dya-</l>
+               <l facs="#facs_131_region_1668614543183_2058l4" n="N004">logus uten lacine in diecsche . vuc</l>
+               <l facs="#facs_131_region_1668614543183_2058l5" n="N005">maect . Bidt ouerden ghetien die dē</l>
+               <l facs="#facs_131_region_1668614543183_2058l6" n="N006">arbeit dede</l></fw></div>
+      </body>
+   </text>
+</TEI>

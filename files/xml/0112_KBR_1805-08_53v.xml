@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt/>
+         <seriesStmt/>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="5186" lry="7123" xml:id="facs_112">
+         <graphic url="47180274.tiff" width="5186px" height="7123px"/>
+         <graphic url="https://files.transkribus.eu/Get?id=EBOVGKCYGQPYQZKXTQRGBMSC&amp;fileType=view" width="5186px" height="7123px"/>
+         <zone points="970,728 2894,728 2894,5741 970,5741" rendition="TextRegion" xml:id="facs_112_TextRegion_1668610129386_405" subtype="paragraph">
+            <zone points="1273,691 2722,691 2722,885 1273,885" rendition="Line" xml:id="facs_112_r2l2"/>
+            <zone points="1255,879 2748,879 2748,994 1255,994" rendition="Line" xml:id="facs_112_r2l3"/>
+            <zone points="1259,978 2736,978 2736,1136 1259,1136" rendition="Line" xml:id="facs_112_r2l4"/>
+            <zone points="1269,1106 2772,1106 2772,1227 1269,1227" rendition="Line" xml:id="facs_112_r2l5"/>
+            <zone points="1265,1190 2748,1190 2748,1323 1265,1323" rendition="Line" xml:id="facs_112_r2l6"/>
+            <zone points="1273,1307 2736,1307 2736,1463 1273,1463" rendition="Line" xml:id="facs_112_r2l7"/>
+            <zone points="1269,1405 2768,1405 2768,1568 1269,1568" rendition="Line" xml:id="facs_112_r2l8"/>
+            <zone points="1263,1540 2720,1540 2720,1678 1263,1678" rendition="Line" xml:id="facs_112_r2l9"/>
+            <zone points="1273,1648 2706,1648 2706,1759 1273,1759" rendition="Line" xml:id="facs_112_r2l10"/>
+            <zone points="1263,1722 2752,1722 2752,1877 1263,1877" rendition="Line" xml:id="facs_112_r2l11"/>
+            <zone points="1257,1865 2726,1865 2726,2007 1257,2007" rendition="Line" xml:id="facs_112_r2l12"/>
+            <zone points="1275,1965 2527,1965 2527,2100 1275,2100" rendition="Line" xml:id="facs_112_line_1668610178957_437"/>
+            <zone points="984,1913 1182,1913 1182,2132 984,2132" rendition="Line" xml:id="facs_112_line_1668610174107_429"/>
+            <zone points="2519,1967 2758,1967 2758,2102 2519,2102" rendition="Line" xml:id="facs_112_line_1668610178957_436"/>
+            <zone points="1259,2056 2776,2056 2776,2204 1259,2204" rendition="Line" xml:id="facs_112_r2l14"/>
+            <zone points="1277,2196 2774,2196 2774,2295 1277,2295" rendition="Line" xml:id="facs_112_r2l15"/>
+            <zone points="1261,2295 2774,2295 2774,2421 1261,2421" rendition="Line" xml:id="facs_112_r2l16"/>
+            <zone points="1273,2399 2716,2399 2716,2523 1273,2523" rendition="Line" xml:id="facs_112_r2l17"/>
+            <zone points="1269,2521 2758,2521 2758,2638 1269,2638" rendition="Line" xml:id="facs_112_r2l18"/>
+            <zone points="1285,2614 2722,2614 2722,2744 1285,2744" rendition="Line" xml:id="facs_112_r2l19"/>
+            <zone points="1285,2722 2762,2722 2762,2851 1285,2851" rendition="Line" xml:id="facs_112_r2l20"/>
+            <zone points="1277,2821 2744,2821 2744,2941 1277,2941" rendition="Line" xml:id="facs_112_r2l21"/>
+            <zone points="1275,2933 2780,2933 2780,3073 1275,3073" rendition="Line" xml:id="facs_112_r2l22"/>
+            <zone points="1267,3015 2790,3015 2790,3176 1267,3176" rendition="Line" xml:id="facs_112_r2l23"/>
+            <zone points="1267,3148 2792,3148 2792,3294 1267,3294" rendition="Line" xml:id="facs_112_r2l24"/>
+            <zone points="1271,3252 2754,3252 2754,3393 1271,3393" rendition="Line" xml:id="facs_112_r2l25"/>
+            <zone points="1273,3361 2792,3361 2792,3479 1273,3479" rendition="Line" xml:id="facs_112_r2l26"/>
+            <zone points="1275,3457 2821,3457 2821,3618 1275,3618" rendition="Line" xml:id="facs_112_r2l27"/>
+            <zone points="1265,3569 2744,3569 2744,3704 1265,3704" rendition="Line" xml:id="facs_112_r2l28"/>
+            <zone points="1253,3660 2790,3660 2790,3814 1253,3814" rendition="Line" xml:id="facs_112_r2l29"/>
+            <zone points="1263,3770 2800,3770 2800,3959 1263,3959" rendition="Line" xml:id="facs_112_r2l30"/>
+            <zone points="1269,3876 2879,3876 2879,4057 1269,4057" rendition="Line" xml:id="facs_112_r2l31"/>
+            <zone points="1536,4003 2841,4003 2841,4137 1536,4137" rendition="Line" xml:id="facs_112_r2l34"/>
+            <zone points="1245,4119 2841,4119 2841,4248 1245,4248" rendition="Line" xml:id="facs_112_r2l35"/>
+            <zone points="1251,4206 2736,4206 2736,4334 1251,4334" rendition="Line" xml:id="facs_112_r2l36"/>
+            <zone points="1261,4328 2716,4328 2716,4467 1261,4467" rendition="Line" xml:id="facs_112_r2l37"/>
+            <zone points="1251,4437 2752,4437 2752,4549 1251,4549" rendition="Line" xml:id="facs_112_r2l39"/>
+            <zone points="1249,4537 2744,4537 2744,4688 1249,4688" rendition="Line" xml:id="facs_112_r2l40"/>
+            <zone points="1243,4641 2758,4641 2758,4776 1243,4776" rendition="Line" xml:id="facs_112_r2l41"/>
+            <zone points="1249,4744 2788,4744 2788,4918 1249,4918" rendition="Line" xml:id="facs_112_r2l42"/>
+            <zone points="1243,4864 2817,4864 2817,4995 1243,4995" rendition="Line" xml:id="facs_112_r2l43"/>
+            <zone points="1243,4979 2760,4979 2760,5127 1243,5127" rendition="Line" xml:id="facs_112_r2l44"/>
+            <zone points="1249,5089 2758,5089 2758,5244 1249,5244" rendition="Line" xml:id="facs_112_r2l45"/>
+            <zone points="1243,5191 2780,5191 2780,5324 1243,5324" rendition="Line" xml:id="facs_112_r2l46"/>
+            <zone points="1247,5286 2692,5286 2692,5420 1247,5420" rendition="Line" xml:id="facs_112_r2l47"/>
+            <zone points="1253,5408 2746,5408 2746,5553 1253,5553" rendition="Line" xml:id="facs_112_r2l48"/>
+            <zone points="1251,5505 2780,5505 2780,5659 1251,5659" rendition="Line" xml:id="facs_112_r2l49"/>
+            <zone points="1233,5617 2718,5617 2718,5782 1233,5782" rendition="Line" xml:id="facs_112_r2l50"/>
+         </zone>
+         <zone points="1462,399 2900,399 2900,569 1462,569" rendition="TextRegion" xml:id="facs_112_r3" subtype="header">
+            <zone points="1532,371 2887,371 2887,594 1532,594" rendition="Line" xml:id="facs_112_line_1668610148298_417"/>
+         </zone>
+         <zone points="2774,801 4516,801 4516,5732 2774,5732" rendition="TextRegion" xml:id="facs_112_r4" subtype="paragraph">
+            <zone points="2979,709 4471,709 4471,917 2979,917" rendition="Line" xml:id="facs_112_r4l1"/>
+            <zone points="2989,893 4497,893 4497,1010 2989,1010" rendition="Line" xml:id="facs_112_r4l2"/>
+            <zone points="2987,1000 4469,1000 4469,1128 2987,1128" rendition="Line" xml:id="facs_112_r4l3"/>
+            <zone points="2985,1106 4489,1106 4489,1209 2985,1209" rendition="Line" xml:id="facs_112_r4l4"/>
+            <zone points="2989,1215 4473,1215 4473,1351 2989,1351" rendition="Line" xml:id="facs_112_r4l5"/>
+            <zone points="2971,1321 4525,1321 4525,1478 2971,1478" rendition="Line" xml:id="facs_112_r4l6"/>
+            <zone points="2975,1413 4471,1413 4471,1580 2975,1580" rendition="Line" xml:id="facs_112_r4l7"/>
+            <zone points="2971,1542 4471,1542 4471,1668 2971,1668" rendition="Line" xml:id="facs_112_r4l8"/>
+            <zone points="2971,1630 4427,1630 4427,1793 2971,1793" rendition="Line" xml:id="facs_112_r4l9"/>
+            <zone points="2991,1765 4487,1765 4487,1897 2991,1897" rendition="Line" xml:id="facs_112_r4l10"/>
+            <zone points="2997,1879 4414,1879 4414,2014 2997,2014" rendition="Line" xml:id="facs_112_r4l11"/>
+            <zone points="2999,1955 4517,1955 4517,2132 2999,2132" rendition="Line" xml:id="facs_112_r4l12"/>
+            <zone points="2997,2090 4481,2090 4481,2230 2997,2230" rendition="Line" xml:id="facs_112_r4l13"/>
+            <zone points="2979,2204 4437,2204 4437,2323 2979,2323" rendition="Line" xml:id="facs_112_r4l14"/>
+            <zone points="2989,2303 4449,2303 4449,2439 2989,2439" rendition="Line" xml:id="facs_112_r4l15"/>
+            <zone points="2985,2393 4433,2393 4433,2533 2985,2533" rendition="Line" xml:id="facs_112_r4l16"/>
+            <zone points="2989,2489 4509,2489 4509,2658 2989,2658" rendition="Line" xml:id="facs_112_r4l17"/>
+            <zone points="3001,2624 4457,2624 4457,2776 3001,2776" rendition="Line" xml:id="facs_112_r4l18"/>
+            <zone points="2981,2736 4435,2736 4435,2829 2981,2829" rendition="Line" xml:id="facs_112_r4l19"/>
+            <zone points="2971,2825 4459,2825 4459,2941 2971,2941" rendition="Line" xml:id="facs_112_r4l20"/>
+            <zone points="2995,2939 4461,2939 4461,3039 2995,3039" rendition="Line" xml:id="facs_112_r4l21"/>
+            <zone points="2985,3033 4455,3033 4455,3168 2985,3168" rendition="Line" xml:id="facs_112_r4l22"/>
+            <zone points="2989,3148 4439,3148 4439,3266 2989,3266" rendition="Line" xml:id="facs_112_r4l23"/>
+            <zone points="2987,3262 4463,3262 4463,3413 2987,3413" rendition="Line" xml:id="facs_112_r4l24"/>
+            <zone points="2991,3385 4479,3385 4479,3501 2991,3501" rendition="Line" xml:id="facs_112_r4l25"/>
+            <zone points="2999,3491 4489,3491 4489,3599 2999,3599" rendition="Line" xml:id="facs_112_r4l26"/>
+            <zone points="2983,3585 4469,3585 4469,3724 2983,3724" rendition="Line" xml:id="facs_112_r4l27"/>
+            <zone points="2973,3698 4431,3698 4431,3828 2973,3828" rendition="Line" xml:id="facs_112_r4l28"/>
+            <zone points="2983,3802 4487,3802 4487,3911 2983,3911" rendition="Line" xml:id="facs_112_r4l29"/>
+            <zone points="2989,3907 4457,3907 4457,4059 2989,4059" rendition="Line" xml:id="facs_112_r4l30"/>
+            <zone points="2975,3999 4505,3999 4505,4162 2975,4162" rendition="Line" xml:id="facs_112_r4l31"/>
+            <zone points="2989,4131 4457,4131 4457,4252 2989,4252" rendition="Line" xml:id="facs_112_r4l32"/>
+            <zone points="2967,4218 4511,4218 4511,4332 2967,4332" rendition="Line" xml:id="facs_112_r4l33"/>
+            <zone points="2967,4326 4471,4326 4471,4451 2967,4451" rendition="Line" xml:id="facs_112_r4l34"/>
+            <zone points="2987,4416 3423,4416 3423,4581 2987,4581" rendition="Line" xml:id="facs_112_line_1668610231007_465"/>
+            <zone points="2774,4402 3001,4402 3001,4527 2774,4527" rendition="Line" xml:id="facs_112_line_1668610224876_457"/>
+            <zone points="3417,4451 4441,4451 4441,4597 3417,4597" rendition="Line" xml:id="facs_112_line_1668610231007_464"/>
+            <zone points="2969,4541 4493,4541 4493,4694 2969,4694" rendition="Line" xml:id="facs_112_r4l36"/>
+            <zone points="2971,4647 4501,4647 4501,4788 2971,4788" rendition="Line" xml:id="facs_112_r4l37"/>
+            <zone points="2959,4754 4437,4754 4437,4880 2959,4880" rendition="Line" xml:id="facs_112_r4l38"/>
+            <zone points="2951,4862 4455,4862 4455,4995 2951,4995" rendition="Line" xml:id="facs_112_r4l39"/>
+            <zone points="2971,4975 4467,4975 4467,5095 2971,5095" rendition="Line" xml:id="facs_112_r4l40"/>
+            <zone points="2955,5077 4525,5077 4525,5224 2955,5224" rendition="Line" xml:id="facs_112_r4l41"/>
+            <zone points="2963,5195 4457,5195 4457,5334 2963,5334" rendition="Line" xml:id="facs_112_r4l42"/>
+            <zone points="2963,5300 4449,5300 4449,5420 2963,5420" rendition="Line" xml:id="facs_112_r4l43"/>
+            <zone points="2951,5412 4439,5412 4439,5535 2951,5535" rendition="Line" xml:id="facs_112_r4l44"/>
+            <zone points="2963,5511 4453,5511 4453,5635 2963,5635" rendition="Line" xml:id="facs_112_r4l45"/>
+            <zone points="2947,5611 4410,5611 4410,5751 2947,5751" rendition="Line" xml:id="facs_112_r4l46"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body><div><pb facs="#facs_112" n="112" xml:id="img_0112"/>
+            <p facs="#facs_112_TextRegion_1668610129386_405">
+               <l facs="#facs_112_r2l2" n="N001">nieut wederstoets . e hi ghinc blide vtʼ</l>
+               <l facs="#facs_112_r2l3" n="N002">kerkē . e des anders daghes ghinc hi te</l>
+               <l facs="#facs_112_r2l4" n="N003">hant als uerselert in die kerke . E hē</l>
+               <l facs="#facs_112_r2l5" n="N004">ghemel dat hi sesse daghe uolgende blide</l>
+               <l facs="#facs_112_r2l6" n="N005">e als vʼsekert uortghinc . e hi waende</l>
+               <l facs="#facs_112_r2l7" n="N006">dat onse hʼe ofte sine sonden met ghesien</l>
+               <l facs="#facs_112_r2l8" n="N007">en hadde . oft sach hijt dat hijt hē bi ontfʼ</l>
+               <l facs="#facs_112_r2l9" n="N008">micheiden uerlaten hadde . net op den</l>
+               <l facs="#facs_112_r2l10" n="N009">seuenden dach sterf hi met haestegher</l>
+               <l facs="#facs_112_r2l11" n="N010">doot . E doe hi begrauē was . soo quā lā-</l>
+               <l facs="#facs_112_r2l12" n="N011">gen tijt daert al de liede saghen . vte sinē</l>
+               <l facs="#facs_112_line_1668610178957_437" n="N012">graue ene vlāme viers . e vʼberrē</l>
+               <l facs="#facs_112_line_1668610174107_429" n="N013">‡ de</l>
+               <l facs="#facs_112_line_1668610178957_436" n="N014">soe lā-</l>
+               <l facs="#facs_112_r2l14" n="N015">ghe sijn ghebeente tote dat het al si graf</l>
+               <l facs="#facs_112_r2l15" n="N016">vʼberrende . soe dat die erde diesinē lichame</l>
+               <l facs="#facs_112_r2l16" n="N017">bedect hadde vte ghegrauē sceen . E dal</l>
+               <l facs="#facs_112_r2l17" n="N018">mechtich god dede dit om dat hi toghen</l>
+               <l facs="#facs_112_r2l18" n="N019">wilde . wat sine ziele in heimelicheiden</l>
+               <l facs="#facs_112_r2l19" n="N020">gedoechde . wies lichame oec dit vier ꝟ-</l>
+               <l facs="#facs_112_r2l20" n="N021">berrende . vore der menschen oghen . E</l>
+               <l facs="#facs_112_r2l21" n="N022">in dese dinc gewerdicht ons hʼe ons die</l>
+               <l facs="#facs_112_r2l22" n="N023">dit horen exempel van vresen te ghe-</l>
+               <l facs="#facs_112_r2l23" n="N024">gheuēne . ō dat wi vte desen merkēne ne-</l>
+               <l facs="#facs_112_r2l24" n="N025">men selen . wat een leuende ziele e ghe-</l>
+               <l facs="#facs_112_r2l25" n="N026">woelende ghedoecht ouʼ haer sondē offe-</l>
+               <l facs="#facs_112_r2l26" n="N027">met soegrotē tormente uandē viere oec</l>
+               <l facs="#facs_112_r2l27" n="N028">die onghevoelike beenre uerborrē wordē</l>
+               <l facs="#facs_112_r2l28" n="N029">DEtrus . Jc soude willen weten . ofte</l>
+               <l facs="#facs_112_r2l29" n="N030">diē goede bekinnē die goede indē rike-</l>
+               <l facs="#facs_112_r2l30" n="N031">ofte die quade de quade indē tormente-</l>
+               <l facs="#facs_112_r2l31" n="N032">GRegorius . De sentencie .xxxiiij.</l>
+               <l facs="#facs_112_r2l34" n="N033">van def dinc es in ons herē waer-</l>
+               <l facs="#facs_112_r2l35" n="N034">den die wi thant vorghesert hebben claer</l>
+               <l facs="#facs_112_r2l36" n="N035">likʼ getoecht . dan dʼlicht indē welkē als</l>
+               <l facs="#facs_112_r2l37" n="N036">gheseit was . Een man was rike . ende</l>
+               <l facs="#facs_112_r2l39" n="N037">cleedde hem met purpurē e mꝫ siden</l>
+               <l facs="#facs_112_r2l40" n="N038">e wʼscaepte alle daghe hogelet . e het</l>
+               <l facs="#facs_112_r2l41" n="N039">was een arm mensche die lazarus hiet</l>
+               <l facs="#facs_112_r2l42" n="N040">die vore sijn dore lach vulfweerrē e re-</l>
+               <l facs="#facs_112_r2l43" n="N041">gheerde ghesaedt te wʼdēne vandʼ crmmē</l>
+               <l facs="#facs_112_r2l44" n="N042">die vielen van des rijcs mans tafellen</l>
+               <l facs="#facs_112_r2l45" n="N043">e niemā en gafse hem . Mʼ die houde qᵃ-</l>
+               <l facs="#facs_112_r2l46" n="N044">men e lecten sine sweren . E dʼ na vol-</l>
+               <l facs="#facs_112_r2l47" n="N045">ghet . dat lasarus sterf . e die ingelle</l>
+               <l facs="#facs_112_r2l48" n="N046">droeghēne in abrahams scoet . E die</l>
+               <l facs="#facs_112_r2l49" n="N047">rijc man sterf oec e hi es begᵃuē in die-</l>
+               <l facs="#facs_112_r2l50" n="N048">helle . E hi hief sine oghen op . doe hi ī</l></p><fw type="header" place="top" facs="#facs_112_r3">
+               <l facs="#facs_112_line_1668610148298_417" n="N001">G D</l></fw>
+            <p facs="#facs_112_r4">
+               <l facs="#facs_112_r4l1" n="N001">den tormente was . e hi sach vā verren</l>
+               <l facs="#facs_112_r4l2" n="N002">lazarusse in abrahams scoet . E hi roe-</l>
+               <l facs="#facs_112_r4l3" n="N003">pende seide . vader abraham ontfarme</l>
+               <l facs="#facs_112_r4l4" n="N004">mijns . e sende lazarusse . dat hi nette-</l>
+               <l facs="#facs_112_r4l5" n="N005">dendde van sinē vingʼe in watʼ . e dat hi</l>
+               <l facs="#facs_112_r4l6" n="N006">mine tonge ꝟcoele . want ic wʼde ghetor-</l>
+               <l facs="#facs_112_r4l7" n="N007">ment in dese vlāmē . E abrahā seide hē</l>
+               <l facs="#facs_112_r4l8" n="N008">Soene herdincke dattu goede dingē ont-</l>
+               <l facs="#facs_112_r4l9" n="N009">fings in dinē leuēne . E lazarus oec</l>
+               <l facs="#facs_112_r4l10" n="N010">quade . Die rijcman die van hē seluē ne-</l>
+               <l facs="#facs_112_r4l11" n="N011">gheēne hore van salicheidē en hadde hi</l>
+               <l facs="#facs_112_r4l12" n="N012">wart gekeert om te ꝟdienēne sijnre ma-</l>
+               <l facs="#facs_112_r4l13" n="N013">ghesalicheit e seide . Jc bidde uadʼ dattu</l>
+               <l facs="#facs_112_r4l14" n="N014">hē sents in mijns uader huus . wāt ic</l>
+               <l facs="#facs_112_r4l15" n="N015">hebbe vijf bruedʼe . dat hi dien orconde dat</l>
+               <l facs="#facs_112_r4l16" n="N016">si oec niet en comē in dese stat van den</l>
+               <l facs="#facs_112_r4l17" n="N017">tormentē . E in desen waerdē wʼt oppen-</l>
+               <l facs="#facs_112_r4l18" n="N018">vaerlic uerclaert . dat die goede bekinnē</l>
+               <l facs="#facs_112_r4l19" n="N019">die goede . e die quade oec die quade .</l>
+               <l facs="#facs_112_r4l20" n="N020">Want en hadde abraham lazarusse niet</l>
+               <l facs="#facs_112_r4l21" n="N021">bekint hi en soude toten rikē man . die ī</l>
+               <l facs="#facs_112_r4l22" n="N022">tormentē was niet hebbē gesprokē . vā</l>
+               <l facs="#facs_112_r4l23" n="N023">sijnre allendicheit die leden was doe hi</l>
+               <l facs="#facs_112_r4l24" n="N024">seide dat hi quade dingē ontfaen hadde</l>
+               <l facs="#facs_112_r4l25" n="N025">in ainē leuene . E waert dat die quade-</l>
+               <l facs="#facs_112_r4l26" n="N026">niet en bekindē die quade soe en soude de-</l>
+               <l facs="#facs_112_r4l27" n="N027">rike man die in cormētē was niet her-</l>
+               <l facs="#facs_112_r4l28" n="N028">dacht hebbē fijnre bruedʼe die dʼ niet en</l>
+               <l facs="#facs_112_r4l29" n="N029">waren . Hoe en soude hi niet bekinnē die</l>
+               <l facs="#facs_112_r4l30" n="N030">bi hem warē . die hē oec om therdinckē</l>
+               <l facs="#facs_112_r4l31" n="N031">der gheenre die bi hem nᵗ ē warē pijnde</l>
+               <l facs="#facs_112_r4l32" n="N032">te biddene . E in dese dinc toecht men</l>
+               <l facs="#facs_112_r4l33" n="N033">oec dit dattu niet en vrages . dat die goe-</l>
+               <l facs="#facs_112_r4l34" n="N034">de altoes die quade bekinnē . e die qua-</l>
+               <l facs="#facs_112_line_1668610231007_465" n="N035">de bekinnē</l>
+               <l facs="#facs_112_line_1668610224876_457" n="N036">altoes</l>
+               <l facs="#facs_112_line_1668610231007_464" n="N037">die goede . Wāt die rijc man</l>
+               <l facs="#facs_112_r4l36" n="N038">was van abrahāme bekint dien hi seide-</l>
+               <l facs="#facs_112_r4l37" n="N039">du ontfings goede dingen in dinē leuēne</l>
+               <l facs="#facs_112_r4l38" n="N040">e die wtuercorne lazarus was vandē</l>
+               <l facs="#facs_112_r4l39" n="N041">ꝟdoemdē riken mā bekint . dien hi bidt</l>
+               <l facs="#facs_112_r4l40" n="N042">te sendēne bi sinē name e seit . Eende</l>
+               <l facs="#facs_112_r4l41" n="N043">lazayus . dat hi dende van sinē vingʼe ste-</l>
+               <l facs="#facs_112_r4l42" n="N044">ke int water e mine tonge ꝟcoele . E</l>
+               <l facs="#facs_112_r4l43" n="N045">inden bekīnene van desen tween ꝑtien</l>
+               <l facs="#facs_112_r4l44" n="N046">wast die hoep vandē toene dat die goede</l>
+               <l facs="#facs_112_r4l45" n="N047">te meeruerblidē die sien dat die mꝫ hem</l>
+               <l facs="#facs_112_r4l46" n="N048">uerblidē die si mindē . e die quadʼe als</l></p></div>
+      </body>
+   </text>
+</TEI>

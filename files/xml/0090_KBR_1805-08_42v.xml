@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt/>
+         <seriesStmt/>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="5186" lry="7123" xml:id="facs_90">
+         <graphic url="47180243.tiff" width="5186px" height="7123px"/>
+         <graphic url="https://files.transkribus.eu/Get?id=QDAAEUMKZVFSVRLKQQKRDJKQ&amp;fileType=view" width="5186px" height="7123px"/>
+         <zone points="1261,761 4148,761 4148,904 1261,904" rendition="TextRegion" xml:id="facs_90_region_1663799990705_2685" subtype="header">
+            <zone points="1277,720 4037,720 4037,917 1277,917" rendition="Line" xml:id="facs_90_region_1663799990705_2685l1"/>
+         </zone>
+         <zone points="1125,950 2863,950 2863,2589 1125,2589" rendition="TextRegion" xml:id="facs_90_region_1663799994881_2688" subtype="paragraph">
+            <zone points="1168,906 2676,906 2676,1068 1168,1068" rendition="Line" xml:id="facs_90_region_1663799994881_2688l1"/>
+            <zone points="1180,1010 2718,1010 2718,1170 1180,1170" rendition="Line" xml:id="facs_90_region_1663799994881_2688l2"/>
+            <zone points="1237,1141 2809,1141 2809,1278 1237,1278" rendition="Line" xml:id="facs_90_region_1663799994881_2688l3"/>
+            <zone points="1181,1248 2746,1248 2746,1380 1181,1380" rendition="Line" xml:id="facs_90_region_1663799994881_2688l4"/>
+            <zone points="1182,1334 2781,1334 2781,1488 1182,1488" rendition="Line" xml:id="facs_90_region_1663799994881_2688l5"/>
+            <zone points="1188,1462 2684,1462 2684,1594 1188,1594" rendition="Line" xml:id="facs_90_region_1663799994881_2688l6"/>
+            <zone points="1185,1555 2669,1555 2669,1689 1185,1689" rendition="Line" xml:id="facs_90_region_1663799994881_2688l7"/>
+            <zone points="1190,1650 2760,1650 2760,1800 1190,1800" rendition="Line" xml:id="facs_90_region_1663799994881_2688l8"/>
+            <zone points="1196,1762 2768,1762 2768,1903 1196,1903" rendition="Line" xml:id="facs_90_region_1663799994881_2688l9"/>
+            <zone points="1195,1871 2747,1871 2747,2019 1195,2019" rendition="Line" xml:id="facs_90_region_1663799994881_2688l10"/>
+            <zone points="1202,1980 2669,1980 2669,2115 1202,2115" rendition="Line" xml:id="facs_90_region_1663799994881_2688l11"/>
+            <zone points="1202,2086 2789,2086 2789,2220 1202,2220" rendition="Line" xml:id="facs_90_region_1663799994881_2688l12"/>
+            <zone points="1189,2196 2630,2196 2630,2332 1189,2332" rendition="Line" xml:id="facs_90_region_1663799994881_2688l13"/>
+            <zone points="1145,2291 2812,2291 2812,2430 1145,2430" rendition="Line" xml:id="facs_90_region_1663799994881_2688l14"/>
+            <zone points="1208,2400 2483,2400 2483,2589 1208,2589" rendition="Line" xml:id="facs_90_region_1663799994881_2688l15"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body><div><pb facs="#facs_90" n="90" xml:id="img_0090"/><fw type="header" place="top" facs="#facs_90_region_1663799990705_2685">
+               <l facs="#facs_90_region_1663799990705_2685l1" n="N001">Gregoriꝰ dyalogus de derde boec nempt hier inde</l></fw>
+            <p facs="#facs_90_region_1663799994881_2688">
+               <l facs="#facs_90_region_1663799994881_2688l1" n="N001">ten die veronledecht es e hare</l>
+               <l facs="#facs_90_region_1663799994881_2688l2" n="N002">te anderen dingen trect . Maer</l>
+               <l facs="#facs_90_region_1663799994881_2688l3" n="N003">sijn enegen menschen dient vor</l>
+               <l facs="#facs_90_region_1663799994881_2688l4" n="N004">deren mach sonder twiuel so set</l>
+               <l facs="#facs_90_region_1663799994881_2688l5" n="N005">tic minen wille achter de orbor-</l>
+               <l facs="#facs_90_region_1663799994881_2688l6" n="N006">lecheit mijnre euenkerstene</l>
+               <l facs="#facs_90_region_1663799994881_2688l7" n="N007">E in als velen alsic metter</l>
+               <l facs="#facs_90_region_1663799994881_2688l8" n="N008">hulpen gods sal vermogen dat</l>
+               <l facs="#facs_90_region_1663799994881_2688l9" n="N009">sal ic in den boec hier na toenē</l>
+               <l facs="#facs_90_region_1663799994881_2688l10" n="N010">dat de sielen na den vleessche le</l>
+               <l facs="#facs_90_region_1663799994881_2688l11" n="N011">uen  Hier es de derde boec</l>
+               <l facs="#facs_90_region_1663799994881_2688l12" n="N012">van dyalogus vte ī dit boec ge</l>
+               <l facs="#facs_90_region_1663799994881_2688l13" n="N013">screuen int iaer ons heren</l>
+               <l facs="#facs_90_region_1663799994881_2688l14" n="N014">.m.ccc.xcv. op sente bertelme-</l>
+               <l facs="#facs_90_region_1663799994881_2688l15" n="N015">us auonde te vespertide</l></p></div>
+      </body>
+   </text>
+</TEI>

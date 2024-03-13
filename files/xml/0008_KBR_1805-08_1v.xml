@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt/>
+         <seriesStmt/>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="5186" lry="7123" xml:id="facs_8">
+         <graphic url="47180129.tiff" width="5186px" height="7123px"/>
+         <graphic url="https://files.transkribus.eu/Get?id=NSHMCZJWWNYTDLJKZZXEJKUN&amp;fileType=view" width="5186px" height="7123px"/>
+         <zone points="1736,658 3985,658 3985,1643 1736,1643" rendition="TextRegion" xml:id="facs_8_region_1663766504520_65" subtype="paragraph">
+            <zone points="1775,590 3994,590 3994,833 1775,833" rendition="Line" xml:id="facs_8_region_1663766504520_65l1"/>
+            <zone points="1782,747 3900,747 3900,986 1782,986" rendition="Line" xml:id="facs_8_region_1663766504520_65l2"/>
+            <zone points="1779,886 3992,886 3992,1121 1779,1121" rendition="Line" xml:id="facs_8_region_1663766504520_65l3"/>
+            <zone points="1780,1000 3904,1000 3904,1252 1780,1252" rendition="Line" xml:id="facs_8_region_1663766504520_65l4"/>
+            <zone points="1788,1154 3991,1154 3991,1411 1788,1411" rendition="Line" xml:id="facs_8_region_1663766504520_65l5"/>
+            <zone points="1789,1310 3920,1310 3920,1509 1789,1509" rendition="Line" xml:id="facs_8_region_1663766504520_65l6"/>
+            <zone points="1797,1457 3628,1457 3628,1662 1797,1662" rendition="Line" xml:id="facs_8_region_1663766504520_65l7"/>
+         </zone>
+         <zone points="2414,1705 4016,1705 4016,1851 2414,1851" rendition="TextRegion" xml:id="facs_8_region_1663766507545_68" subtype="marginalia">
+            <zone points="2445,1649 3994,1649 3994,1918 2445,1918" rendition="Line" xml:id="facs_8_region_1663766507545_68l1"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body><div><pb facs="#facs_8" n="8" xml:id="img_0008"/>
+            <p facs="#facs_8_region_1663766504520_65">
+               <l facs="#facs_8_region_1663766504520_65l1" n="N001">wiste dat si hare te xpūs gheloeue ghege-</l>
+               <l facs="#facs_8_region_1663766504520_65l2" n="N002">uen hadde e in goeden werkē voerbarech</l>
+               <l facs="#facs_8_region_1663766504520_65l3" n="N003">e wtnemēde was . Dese tendelinde des co-</l>
+               <l facs="#facs_8_region_1663766504520_65l4" n="N004">nics dochter vā bagioariē was eerst wʼf</l>
+               <l facs="#facs_8_region_1663766504520_65l5" n="N005">te huweleke ghegheuen autharize den co-</l>
+               <l facs="#facs_8_region_1663766504520_65l6" n="N006">ninc vandē lombaerdē . maer doē hi doot</l>
+               <l facs="#facs_8_region_1663766504520_65l7" n="N007">was soe huwese ane agilulphuse .</l></p><note place="margin-left" facs="#facs_8_region_1663766507545_68">
+               <l facs="#facs_8_region_1663766507545_68l1" n="N001">⸫ Nēmeer en vant ics jnt latijn .</l></note></div>
+      </body>
+   </text>
+</TEI>
