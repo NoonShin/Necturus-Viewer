@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3ce3e7e.css",
-    "main.js": "/static/js/main.978530ab.js",
-    "static/js/787.1c8c503e.chunk.js": "/static/js/787.1c8c503e.chunk.js",
-    "static/media/logo.png": "/static/media/logo.93057cafde182e0ca2fc.png",
-    "index.html": "/index.html",
-    "main.e3ce3e7e.css.map": "/static/css/main.e3ce3e7e.css.map",
-    "main.978530ab.js.map": "/static/js/main.978530ab.js.map",
-    "787.1c8c503e.chunk.js.map": "/static/js/787.1c8c503e.chunk.js.map"
+    "main.css": "/Necturus-Viewer/static/css/main.e3ce3e7e.css",
+    "main.js": "/Necturus-Viewer/static/js/main.190993bc.js",
+    "static/js/787.1c8c503e.chunk.js": "/Necturus-Viewer/static/js/787.1c8c503e.chunk.js",
+    "static/media/logo.png": "/Necturus-Viewer/static/media/logo.93057cafde182e0ca2fc.png",
+    "index.html": "/Necturus-Viewer/index.html",
+    "main.e3ce3e7e.css.map": "/Necturus-Viewer/static/css/main.e3ce3e7e.css.map",
+    "main.190993bc.js.map": "/Necturus-Viewer/static/js/main.190993bc.js.map",
+    "787.1c8c503e.chunk.js.map": "/Necturus-Viewer/static/js/787.1c8c503e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3ce3e7e.css",
-    "static/js/main.978530ab.js"
+    "static/js/main.190993bc.js"
   ]
 }
