@@ -5,9 +5,11 @@ import AnnotationContainer from "./AnnotationContainer";
 import {Responsive, WidthProvider} from "react-grid-layout";
 import Cookies from "universal-cookie";
 import {CustomNavbar} from "./CustomNavbar";
-import {ImportModal} from "./ImportModal";
+import {TranskribusImportModal} from "./TranskribusImportModal";
 import {DynamicXMLViewer} from "./DynamicXMLViewer";
 import {CustomPagination} from "./CustomPagination";
+import {DBImportModal} from "./DBImportModal";
+import {Breadcrumb} from "react-bootstrap";
 const cookies = new Cookies();
 
 
@@ -21,7 +23,12 @@ export function XMLViewerContainer() {
     const [currentPage, setCurrentPage] = useState(1);
     const [annoZones, setAnnoZones] = useState()
 
-    const [show, setShow] = useState(false);
+    const [trLoadShow, setTrLoadShow] = useState(false);
+    const [dbLoadShow, setDbLoadShow] = useState(false);
+
+    const [dbUrl, setDbUrl] = useState();
+    const [dbCollection, setDbCollection] = useState();
+    const [currentPageName, setCurrentPageName] = useState("");
 
     function resetLayout(newLayout) {
         if (newLayout === 'sbs') {
@@ -42,7 +49,11 @@ export function XMLViewerContainer() {
     }
 
     function transkribusModal() {
-        setShow(!(show));
+        setTrLoadShow(!(trLoadShow));
+    }
+
+    function dbModal() {
+        setDbLoadShow(!(dbLoadShow));
     }
 
     useEffect(() => {
@@ -60,18 +71,44 @@ export function XMLViewerContainer() {
     }, []);
 
     useEffect(() => {
-
+        if (currentPage && dbUrl) {
+            setCurrentPageName(dbCollection.files[currentPage - 1].name.slice(0, -4));
+        }
     }, [currentPage])
+
+    useEffect(() => {
+        if (dbCollection) {
+            // natural sort (so that e.g. 1r.xml comes before 10r.xml)
+            dbCollection.files.sort((a, b) => {
+                return a.name.localeCompare(b.name, undefined, {numeric: true})
+            })
+            setCurrentPageName(dbCollection.files[0].name.slice(0, -4));
+            setFilesInfo(dbCollection.files.map(item => item.url))
+            setCurrentPage(1);
+        }
+    }, [dbCollection])
 
     return (
         <Fragment>
-            <CustomNavbar loggedIn={true} helperFunctions={{transkribusModal, resetLayout, handleLogout}} />
+            <CustomNavbar loggedIn={true} helperFunctions={{transkribusModal, resetLayout, handleLogout, dbModal}} />
             <Container>
-                <ImportModal show={show} switchShow={transkribusModal} />
+                <TranskribusImportModal show={trLoadShow} switchShow={transkribusModal} />
+                <DBImportModal show={dbLoadShow} switchShow={dbModal} setCollection={setDbCollection} setDbUrl={setDbUrl} />
+                {dbCollection &&
+                <Fragment>
+                    <div className="d-flex align-items-center my-breadcrumb-container border bg-light h-100 p-2">
+                        <Breadcrumb className="pt-3 px-2">
+                            <Breadcrumb.Item active href="#">XML Database</Breadcrumb.Item>
+                            <Breadcrumb.Item active onClick={dbModal}>{dbCollection.name}</Breadcrumb.Item>
+                            <Breadcrumb.Item active>{currentPageName}</Breadcrumb.Item>
+                        </Breadcrumb>
+                    </div>
+                </Fragment>
+                }
                 <ResponsiveGridLayout
                     className="layout"
                     layouts={layout}
-                    breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
+                    breakpoints={{lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0}}
                     cols={{ lg: 12, md: 10, sm: 6, xs: 4, xxs: 2 }}
                     rowHeight={130}
                     draggableHandle=".drag-handle"
@@ -81,17 +118,22 @@ export function XMLViewerContainer() {
                 >
                     <div key="1">
                         <div className="border bg-light h-100 p-3">
-                            <DynamicXMLViewer onSelection={selectedZone} setSelection={setSelectedZone} currentPage={filesInfo ? filesInfo[currentPage-1] : ''} setAnnoZones={setAnnoZones} />
+                            <DynamicXMLViewer onSelection={selectedZone} setSelection={setSelectedZone}
+                                              currentPage={filesInfo ? filesInfo[currentPage - 1] : ''}
+                                              setAnnoZones={setAnnoZones} dbUrl={dbUrl}/>
                         </div>
                     </div>
                     <div key="2">
                         <div className="border bg-light h-100 p-3">
-                            <AnnotationContainer onSelection={selectedZone} setSelection={setSelectedZone} currentPage={filesInfo ? filesInfo[currentPage-1] : ''} annoZones={annoZones}/>
+                            <AnnotationContainer onSelection={selectedZone} setSelection={setSelectedZone}
+                                                 currentPage={filesInfo ? filesInfo[currentPage - 1] : ''}
+                                                 annoZones={annoZones} dbUrl={dbUrl}/>
                         </div>
                     </div>
 
                 </ResponsiveGridLayout>
-                <CustomPagination currentPage={currentPage} setCurrentPage={setCurrentPage} totalPages={filesInfo ? filesInfo.length : 0}/>
+                <CustomPagination currentPage={currentPage} setCurrentPage={setCurrentPage}
+                                  totalPages={filesInfo ? filesInfo.length : 0}/>
             </Container>
 
         </Fragment>

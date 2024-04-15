@@ -5,9 +5,10 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {solid} from "@fortawesome/fontawesome-svg-core/import.macro";
 import { scrollIntoView } from "seamless-scroll-polyfill";
 import {convertZonesToJson} from "../util/annotation-util"
+import axios from "axios";
 
 
-export function DynamicXMLViewer({onSelection, setSelection, currentPage, setAnnoZones}) {
+export function DynamicXMLViewer({onSelection, setSelection, currentPage, setAnnoZones, dbUrl}) {
     const [xmlText, setXmlText] = useState("");
     const [showRender, setShowRender] = useState(true);
 
@@ -18,9 +19,21 @@ export function DynamicXMLViewer({onSelection, setSelection, currentPage, setAnn
     useEffect(() => {
         const loadXmltext = async () => {
             try {
-                const response = await fetch(`${process.env.PUBLIC_URL}/files/xml/${currentPage}.xml`);
-                const data = await response.text();
-                setXmlText(data);
+                if (!dbUrl) {
+                    const response = await fetch(`${process.env.PUBLIC_URL}/files/xml/${currentPage}.xml`);
+                    const data = await response.text();
+                    setXmlText(data);
+                }
+                else {
+                    const reqUrl = dbUrl + currentPage
+                    axios.get(reqUrl)
+                        .then((result) => {
+                            setXmlText(result.data.file);
+                        })
+                        .catch((error) => {
+                            console.log(error)
+                        });
+                }
             }
             catch (e) {
              console.error(e)

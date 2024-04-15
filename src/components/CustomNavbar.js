@@ -18,6 +18,7 @@ export function CustomNavbar({loggedIn=false, helperFunctions={}}) {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <NavDropdown title="Import" id="basic-nav-dropdown">
+                                <NavDropdown.Item onClick={helperFunctions.dbModal}>from XML database</NavDropdown.Item>
                                 <NavDropdown.Item onClick={helperFunctions.transkribusModal}>from Transkribus</NavDropdown.Item>
                                 <NavDropdown.Item onClick>from eScriptorium</NavDropdown.Item>
                                 <NavDropdown.Item onClick>from local file</NavDropdown.Item>

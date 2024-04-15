@@ -63,7 +63,7 @@ function ImageComponent({onSelection, setSelection, transformComponentRef, curre
                 setSelection(element.getAttribute('data-id'));
             });
 
-            annotorious.loadAnnotations(createAnnotationUrl());
+            if (annoZones) annotorious.loadAnnotations(createAnnotationUrl());
         }
 
         // Keep current Annotorious instance in state
@@ -107,7 +107,7 @@ function ImageComponent({onSelection, setSelection, transformComponentRef, curre
     );
 }
 
-function AnnotationContainer({onSelection, setSelection, currentPage, annoZones}) {
+function AnnotationContainer({onSelection, setSelection, currentPage, annoZones, dbUrl}) {
     // Ref for zooming to element
     const transformComponentRef = useRef();
 

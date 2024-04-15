@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Junicode';
+  src: local('Junicode'), url("./fonts/junicode-woff-1/Junicode.woff") format('woff');
+}
+
 .App {
   text-align: center;
 }
@@ -72,6 +77,8 @@
   padding-left: 10px;
   padding-right: 10px;
   margin-top: 5px;
+  font-family: Junicode, serif;
+  font-size: large;
 }
 
 .placeholder {
@@ -250,4 +257,10 @@
 .pagination .ellipsis {
   margin-right: 5px;
   margin-top: 5px;
+}
+
+
+.my-breadcrumb-container {
+  padding-top: 15px;
+  margin: 10px;
 }

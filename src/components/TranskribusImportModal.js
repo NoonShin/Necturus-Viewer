@@ -6,7 +6,7 @@ import Cookies from "universal-cookie";
 const cookies = new Cookies();
 
 
-export function ImportModal({show, switchShow}) {
+export function TranskribusImportModal({show, switchShow}) {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [loginFailed, setLoginFailed] = useState(false);
