@@ -28,10 +28,6 @@ export function DBImportModal({ show, switchShow, setCollection, setDbUrl }) {
     const fetchCollections = () => {
         const cleanUrl = url.slice(-1) === '/' ? url.slice(0, -1) : url;
         const reqUrl = cleanUrl.concat('/getcollections/')
-        axios.get('https://cdn.explorecams.com/storage/photos/LEFEikw0MR_1600.jpg')
-            .then((result) => {
-                console.log(result)
-            })
         axios.get(reqUrl)
             .then((result) => {
                 setDbUrl(cleanUrl)
