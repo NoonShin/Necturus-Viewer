@@ -9,7 +9,9 @@ import {TranskribusImportModal} from "./TranskribusImportModal";
 import {DynamicXMLViewer} from "./DynamicXMLViewer";
 import {CustomPagination} from "./CustomPagination";
 import {DBImportModal} from "./DBImportModal";
-import {Breadcrumb} from "react-bootstrap";
+import {Breadcrumb, Button, Col} from "react-bootstrap";
+import SearchModal from "./SearchModal";
+import {Link} from "react-router-dom";
 const cookies = new Cookies();
 
 
@@ -25,10 +27,13 @@ export function XMLViewerContainer() {
 
     const [trLoadShow, setTrLoadShow] = useState(false);
     const [dbLoadShow, setDbLoadShow] = useState(false);
+    const [searchShow, setSearchShow] = useState(false);
 
     const [dbUrl, setDbUrl] = useState();
     const [dbCollection, setDbCollection] = useState();
     const [currentPageName, setCurrentPageName] = useState("");
+
+    const [searchedItemLocation, SetSearchedItemLocation] = useState();
 
     function resetLayout(newLayout) {
         if (newLayout === 'sbs') {
@@ -54,6 +59,10 @@ export function XMLViewerContainer() {
 
     function dbModal() {
         setDbLoadShow(!(dbLoadShow));
+    }
+
+    function searchModal() {
+        setSearchShow(!(searchShow));
     }
 
     useEffect(() => {
@@ -88,20 +97,39 @@ export function XMLViewerContainer() {
         }
     }, [dbCollection])
 
+    useEffect(() => {
+        if (searchedItemLocation) {
+            const key = Object.keys(filesInfo).find(key => filesInfo[key] === searchedItemLocation['url']);
+            setCurrentPage(parseInt(key) + 1);
+
+            //TODO: This is not ideal, I should find a better way to do this
+            setTimeout(() => {
+                setSelectedZone(searchedItemLocation['facs'].slice(1));
+            }, 100);        }
+    }, [searchedItemLocation]);
+
     return (
         <Fragment>
             <CustomNavbar loggedIn={true} helperFunctions={{transkribusModal, resetLayout, handleLogout, dbModal}} />
             <Container>
                 <TranskribusImportModal show={trLoadShow} switchShow={transkribusModal} />
                 <DBImportModal show={dbLoadShow} switchShow={dbModal} setCollection={setDbCollection} setDbUrl={setDbUrl} />
+                <SearchModal show={searchShow} switchShow={searchModal} dbUrl={dbUrl} collectionId={dbCollection?.name} setSearchedItemLocation={SetSearchedItemLocation} />
                 {dbCollection &&
                 <Fragment>
                     <div className="d-flex align-items-center my-breadcrumb-container border bg-light h-100 p-2">
+                        <Col className={"col-10"}>
                         <Breadcrumb className="pt-3 px-2">
                             <Breadcrumb.Item active href="#">XML Database</Breadcrumb.Item>
-                            <Breadcrumb.Item active onClick={dbModal}>{dbCollection.name}</Breadcrumb.Item>
+                            <Breadcrumb.Item active onClick={dbModal} style={{cursor: 'pointer'}}>{dbCollection?.name}</Breadcrumb.Item>
                             <Breadcrumb.Item active>{currentPageName}</Breadcrumb.Item>
                         </Breadcrumb>
+                        </Col>
+                        <Col className={"col-2 search-column"}>
+                            <Button variant="link" onClick={searchModal} style={{ textDecoration: 'none', color: '#212529BF' }}>
+                                Search Collection
+                            </Button>
+                        </Col>
                     </div>
                 </Fragment>
                 }

@@ -264,3 +264,27 @@
   padding-top: 15px;
   margin: 10px;
 }
+
+.search-column {
+  display: flex;
+  justify-content: right;
+  /*padding-right: 0.5rem;*/
+}
+
+.search-result-item {
+  font-family: Junicode, serif;
+}
+
+.clickable-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clickable-item:hover {
+  background-color: #f8f9fa;
+}
+
+hi[type="match"] {
+  background-color: #fff00065;
+}
