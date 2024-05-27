@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt/>
+         <seriesStmt/>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="2721" lry="3500" xml:id="facs_">
+         <graphic url="m1-8-1-5.tif" width="2721px" height="3500px"/>
+         <zone points="0,0 0,0 0,0 0,0" rendition="TextRegion" xml:id="facs__eSc_dummyblock_">
+            <zone points="795,134 1925,134 1925,231 795,231" rendition="Line" xml:id="facs__eSc_line_0ded50c3" subtype="default"/>
+            <zone points="822,200 2514,200 2514,316 822,316" rendition="Line" xml:id="facs__eSc_line_f62d84a0" subtype="default"/>
+            <zone points="816,283 2166,283 2166,400 816,400" rendition="Line" xml:id="facs__eSc_line_a4d20d4b" subtype="default"/>
+            <zone points="834,373 1933,373 1933,490 834,490" rendition="Line" xml:id="facs__eSc_line_c747c36c" subtype="default"/>
+            <zone points="834,433 2265,433 2265,569 834,569" rendition="Line" xml:id="facs__eSc_line_92ea6612" subtype="default"/>
+            <zone points="832,521 2143,521 2143,670 832,670" rendition="Line" xml:id="facs__eSc_line_1daa3d06" subtype="default"/>
+            <zone points="836,606 2281,606 2281,758 836,758" rendition="Line" xml:id="facs__eSc_line_b7f93e43" subtype="default"/>
+            <zone points="1429,797 1631,797 1631,867 1429,867" rendition="Line" xml:id="facs__eSc_line_7e7875e4" subtype="default"/>
+            <zone points="838,799 2174,799 2174,939 838,939" rendition="Line" xml:id="facs__eSc_line_eacfeb39" subtype="default"/>
+            <zone points="853,898 2133,898 2133,1026 853,1026" rendition="Line" xml:id="facs__eSc_line_91b7f080" subtype="default"/>
+            <zone points="848,966 2083,966 2083,1094 848,1094" rendition="Line" xml:id="facs__eSc_line_4df5f977" subtype="default"/>
+            <zone points="1933,1005 2345,1005 2345,1104 1933,1104" rendition="Line" xml:id="facs__eSc_line_cf079578" subtype="default"/>
+            <zone points="840,1036 1925,1036 1925,1180 840,1180" rendition="Line" xml:id="facs__eSc_line_25b39062" subtype="default"/>
+            <zone points="840,1096 2207,1096 2207,1267 840,1267" rendition="Line" xml:id="facs__eSc_line_a55ed099" subtype="default"/>
+            <zone points="834,1182 2269,1182 2269,1341 834,1341" rendition="Line" xml:id="facs__eSc_line_8ce8f057" subtype="default"/>
+            <zone points="838,1256 2273,1256 2273,1429 838,1429" rendition="Line" xml:id="facs__eSc_line_adc03be2" subtype="default"/>
+            <zone points="1631,1320 2232,1320 2232,1421 1631,1421" rendition="Line" xml:id="facs__eSc_line_5f570318" subtype="default"/>
+            <zone points="851,1388 1600,1388 1600,1495 851,1495" rendition="Line" xml:id="facs__eSc_line_ed637b25" subtype="default"/>
+            <zone points="855,1376 2394,1376 2394,1576 855,1576" rendition="Line" xml:id="facs__eSc_line_fa2940e8" subtype="default"/>
+            <zone points="875,1442 2485,1442 2485,1654 875,1654" rendition="Line" xml:id="facs__eSc_line_0a0a5d52" subtype="default"/>
+            <zone points="904,1567 2160,1567 2160,1730 904,1730" rendition="Line" xml:id="facs__eSc_line_a5485537" subtype="default"/>
+            <zone points="2112,1576 2431,1576 2431,1715 2112,1715" rendition="Line" xml:id="facs__eSc_line_03a5ca5e" subtype="default"/>
+            <zone points="844,1648 2086,1648 2086,1812 844,1812" rendition="Line" xml:id="facs__eSc_line_aeedce0b" subtype="default"/>
+            <zone points="859,1779 1363,1779 1363,1893 859,1893" rendition="Line" xml:id="facs__eSc_line_64110b35" subtype="default"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body><div><pb facs="#facs_" n="" xml:id="img_NaN"/>
+            <ab facs="#facs__eSc_dummyblock_">
+               <l facs="#facs__eSc_line_0ded50c3">Mhore is an latryse Hentonn Rary ehit</l>
+               <l facs="#facs__eSc_line_f62d84a0">tantoere in lad jottio don in iin deary the Corpe</l>
+               <l facs="#facs__eSc_line_a4d20d4b">Ue Certe, te nails, he temben that he had</l>
+               <l facs="#facs__eSc_line_c747c36c">borynt. Ta paenhea The eatre</l>
+               <l facs="#facs__eSc_line_92ea6612">cind fa te Clotha won lele plag Hun-</l>
+               <l facs="#facs__eSc_line_1daa3d06">Jhak van the home that ne plaghoe</l>
+               <l facs="#facs__eSc_line_b7f93e43">este breuy built en the Banks Me Hama-</l>
+               <l facs="#facs__eSc_line_7e7875e4">Mlan royn</l>
+               <l facs="#facs__eSc_line_eacfeb39">But hon far wen tu anthere en 1570 reparate</l>
+               <l facs="#facs__eSc_line_91b7f080">pom Anon Ne mentel he kalad Neger.</l>
+               <l facs="#facs__eSc_line_4df5f977">Je fast reams 4 he tat, ohele Herver</l>
+               <l facs="#facs__eSc_line_cf079578">he Cnther ez</l>
+               <l facs="#facs__eSc_line_25b39062">cttachet ha name t nu tavy Quen</l>
+               <l facs="#facs__eSc_line_a55ed099">he Manal Razedy let hu vonk p ani sued.</l>
+               <l facs="#facs__eSc_line_8ce8f057">Uhii a Ige Ato lhat hore won fus pubhes:</l>
+               <l facs="#facs__eSc_line_adc03be2">le radey a lhe plagavij. Thoees a dronoi</l>
+               <l facs="#facs__eSc_line_5f570318">pitwan twe Hind</l>
+               <l facs="#facs__eSc_line_ed637b25">Ut munk a Rrtenchion</l>
+               <l facs="#facs__eSc_line_fa2940e8">Weke- hoo methedtn toa too altetnde z men.</l>
+               <l facs="#facs__eSc_line_0a0a5d52">Yhon han vem na menteel vouw Eahte behen</l>
+               <l facs="#facs__eSc_line_a5485537">hons rumaien a read, à fode leterature</l>
+               <l facs="#facs__eSc_line_03a5ca5e">boch t he</l>
+               <l facs="#facs__eSc_line_aeedce0b">ho Heye, no Common hrt: hut alvegs ent</l>
+               <l facs="#facs__eSc_line_64110b35">reid, prerately:</l>
+            </ab></div>
+      </body>
+   </text>
+</TEI>

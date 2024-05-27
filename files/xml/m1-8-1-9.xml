@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt/>
+         <seriesStmt/>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="2721" lry="3500" xml:id="facs_">
+         <graphic url="m1-8-1-9.tif" width="2721px" height="3500px"/>
+         <zone points="0,0 0,0 0,0 0,0" rendition="TextRegion" xml:id="facs__eSc_dummyblock_">
+            <zone points="824,124 1610,124 1610,239 824,239" rendition="Line" xml:id="facs__eSc_line_288bed81" subtype="default"/>
+            <zone points="962,219 2271,219 2271,316 962,316" rendition="Line" xml:id="facs__eSc_line_a9a4f617" subtype="default"/>
+            <zone points="834,289 2271,289 2271,400 834,400" rendition="Line" xml:id="facs__eSc_line_a4ee1796" subtype="default"/>
+            <zone points="840,375 2287,375 2287,490 840,490" rendition="Line" xml:id="facs__eSc_line_dfea6e5d" subtype="default"/>
+            <zone points="871,458 2106,458 2106,567 871,567" rendition="Line" xml:id="facs__eSc_line_ed6c7723" subtype="default"/>
+            <zone points="886,519 2285,519 2285,661 886,661" rendition="Line" xml:id="facs__eSc_line_d4b20bc3" subtype="default"/>
+            <zone points="890,600 2258,600 2258,731 890,731" rendition="Line" xml:id="facs__eSc_line_290d83d8" subtype="default"/>
+            <zone points="873,725 1456,725 1456,824 873,824" rendition="Line" xml:id="facs__eSc_line_9479bade" subtype="default"/>
+            <zone points="1495,688 1987,688 1987,801 1495,801" rendition="Line" xml:id="facs__eSc_line_8dc82a50" subtype="default"/>
+            <zone points="896,719 2349,719 2349,902 896,902" rendition="Line" xml:id="facs__eSc_line_c076f87c" subtype="default"/>
+            <zone points="1941,799 2332,799 2332,882 1941,882" rendition="Line" xml:id="facs__eSc_line_5b7f0276" subtype="default"/>
+            <zone points="863,838 1911,838 1911,995 863,995" rendition="Line" xml:id="facs__eSc_line_a0ed9411" subtype="default"/>
+            <zone points="884,880 2347,880 2347,1067 884,1067" rendition="Line" xml:id="facs__eSc_line_97690eef" subtype="default"/>
+            <zone points="873,987 2209,987 2209,1160 873,1160" rendition="Line" xml:id="facs__eSc_line_51899132" subtype="default"/>
+            <zone points="888,1114 1666,1114 1666,1242 888,1242" rendition="Line" xml:id="facs__eSc_line_e7d0acbb" subtype="default"/>
+            <zone points="1696,1079 2092,1079 2092,1172 1696,1172" rendition="Line" xml:id="facs__eSc_line_3527b275" subtype="default"/>
+            <zone points="2129,1034 2238,1034 2238,1110 2129,1110" rendition="Line" xml:id="facs__eSc_line_22ea913a" subtype="default"/>
+            <zone points="865,1131 2205,1131 2205,1339 865,1339" rendition="Line" xml:id="facs__eSc_line_973cf74c" subtype="default"/>
+            <zone points="904,1232 2182,1232 2182,1436 904,1436" rendition="Line" xml:id="facs__eSc_line_665354e0" subtype="default"/>
+            <zone points="1917,1285 2225,1285 2225,1403 1917,1403" rendition="Line" xml:id="facs__eSc_line_2b942cd0" subtype="default"/>
+            <zone points="988,1359 1908,1359 1908,1516 988,1516" rendition="Line" xml:id="facs__eSc_line_523415e5" subtype="default"/>
+            <zone points="1964,1359 2405,1359 2405,1485 1964,1485" rendition="Line" xml:id="facs__eSc_line_34c8dff6" subtype="default"/>
+            <zone points="939,1450 1921,1450 1921,1617 939,1617" rendition="Line" xml:id="facs__eSc_line_ed833781" subtype="default"/>
+            <zone points="962,1573 1487,1573 1487,1701 962,1701" rendition="Line" xml:id="facs__eSc_line_d77a0816" subtype="default"/>
+            <zone points="1511,1470 2296,1470 2296,1629 1511,1629" rendition="Line" xml:id="facs__eSc_line_bf438a86" subtype="default"/>
+            <zone points="964,1654 1435,1654 1435,1779 964,1779" rendition="Line" xml:id="facs__eSc_line_3a53413c" subtype="default"/>
+            <zone points="1474,1549 2147,1549 2147,1713 1474,1713" rendition="Line" xml:id="facs__eSc_line_63114c7a" subtype="default"/>
+            <zone points="2007,1596 2481,1596 2481,1736 2007,1736" rendition="Line" xml:id="facs__eSc_line_bb194a4c" subtype="default"/>
+            <zone points="970,1674 1962,1674 1962,1860 970,1860" rendition="Line" xml:id="facs__eSc_line_1eb8d533" subtype="default"/>
+            <zone points="954,1833 1470,1833 1470,1936 954,1936" rendition="Line" xml:id="facs__eSc_line_ae619c52" subtype="default"/>
+            <zone points="1262,1841 2178,1841 2178,2033 1262,2033" rendition="Line" xml:id="facs__eSc_line_f273e1c6" subtype="default"/>
+            <zone points="1853,1932 2014,1932 2014,2024 1853,2024" rendition="Line" xml:id="facs__eSc_line_82c1ce65" subtype="default"/>
+            <zone points="2053,1923 2123,1923 2123,1987 2053,1987" rendition="Line" xml:id="facs__eSc_line_0b927fb0" subtype="default"/>
+            <zone points="2201,1868 2456,1868 2456,1977 2201,1977" rendition="Line" xml:id="facs__eSc_line_c6fc7bf9" subtype="default"/>
+            <zone points="902,1983 1820,1983 1820,2164 902,2164" rendition="Line" xml:id="facs__eSc_line_b58c22ee" subtype="default"/>
+            <zone points="935,2144 1225,2144 1225,2251 935,2251" rendition="Line" xml:id="facs__eSc_line_3a81e783" subtype="default"/>
+            <zone points="1075,2208 1205,2208 1205,2310 1075,2310" rendition="Line" xml:id="facs__eSc_line_6f3e05e2" subtype="default"/>
+            <zone points="1211,2109 2361,2109 2361,2280 1211,2280" rendition="Line" xml:id="facs__eSc_line_14786dca" subtype="default"/>
+            <zone points="962,2220 2261,2220 2261,2434 962,2434" rendition="Line" xml:id="facs__eSc_line_8810a297" subtype="default"/>
+            <zone points="2020,2302 2330,2302 2330,2432 2020,2432" rendition="Line" xml:id="facs__eSc_line_23979782" subtype="default"/>
+            <zone points="392,902 818,902 818,1040 392,1040" rendition="Line" xml:id="facs__eSc_line_939692b5" subtype="default"/>
+            <zone points="449,991 793,991 793,1121 449,1121" rendition="Line" xml:id="facs__eSc_line_6f623424" subtype="default"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body><div><pb facs="#facs_" n="" xml:id="img_NaN"/>
+            <ab facs="#facs__eSc_dummyblock_">
+               <l facs="#facs__eSc_line_288bed81">pook toed tne rpoy 9 Aothen.</l>
+               <l facs="#facs__eSc_line_a9a4f617">then, ke mntiimt te maet te mepenonati,</l>
+               <l facs="#facs__eSc_line_a4ee1796">shat Mry ver hean came ito bren. men hettige</l>
+               <l facs="#facs__eSc_line_dfea6e5d">Gneln inhnt hare threi menteel te poe ape</l>
+               <l facs="#facs__eSc_line_ed6c7723">to ha hedden ensstent. Me acter enss</l>
+               <l facs="#facs__eSc_line_d4b20bc3">derpen. phes for he dlmplazd ha body: chu-</l>
+               <l facs="#facs__eSc_line_290d83d8">Jnlane, feetiey hmly en onblast te und hu</l>
+               <l facs="#facs__eSc_line_9479bade">Catiden prvilige 4</l>
+               <l facs="#facs__eSc_line_8dc82a50">9 vrrapenkeba</l>
+               <l facs="#facs__eSc_line_c076f87c">motkerg. Got Jnhan we tolaale hou echo</l>
+               <l facs="#facs__eSc_line_5b7f0276">admit he</l>
+               <l facs="#facs__eSc_line_a0ed9411">a echat we aue ho pron 4</l>
+               <l facs="#facs__eSc_line_97690eef">nentzel war fokraler. Eoar e charchmer</l>
+               <l facs="#facs__eSc_line_51899132">alvar that sa ctha hude thre hue wore</l>
+               <l facs="#facs__eSc_line_e7d0acbb">tmn wettashd ma lvnd</l>
+               <l facs="#facs__eSc_line_3527b275">uit Inppien</l>
+               <l facs="#facs__eSc_line_22ea913a">the</l>
+               <l facs="#facs__eSc_line_973cf74c">a ctor. lhen he wan no toeger 2 Ma lourd,</l>
+               <l facs="#facs__eSc_line_665354e0">1hey cuntrand he jugela ta danlu</l>
+               <l facs="#facs__eSc_line_2b942cd0">helte à 4</l>
+               <l facs="#facs__eSc_line_523415e5">pntop theur leanes à lui</l>
+               <l facs="#facs__eSc_line_34c8dff6">in a mercich</l>
+               <l facs="#facs__eSc_line_ed833781">rote antne en he perzenager</l>
+               <l facs="#facs__eSc_line_d77a0816">play. Vnt schen</l>
+               <l facs="#facs__eSc_line_bf438a86">Me ald fel eton relyon</l>
+               <l facs="#facs__eSc_line_3a53413c">Uon wen stale,</l>
+               <l facs="#facs__eSc_line_63114c7a">then Eoft plajer in ti</l>
+               <l facs="#facs__eSc_line_bb194a4c">napant in tho</l>
+               <l facs="#facs__eSc_line_1eb8d533">Cheayars, daVluit ret ep Mri</l>
+               <l facs="#facs__eSc_line_ae619c52">marhet plaa.</l>
+               <l facs="#facs__eSc_line_f273e1c6">Vlnser, siu raid, wn de unth</l>
+               <l facs="#facs__eSc_line_82c1ce65">Chan</l>
+               <l facs="#facs__eSc_line_0b927fb0">00</l>
+               <l facs="#facs__eSc_line_c6fc7bf9">hapant.</l>
+               <l facs="#facs__eSc_line_b58c22ee">amen the andiener a honm</l>
+               <l facs="#facs__eSc_line_3a81e783">Ja nota</l>
+               <l facs="#facs__eSc_line_6f3e05e2">lans</l>
+               <l facs="#facs__eSc_line_14786dca">aylú her came doly Jane airges</l>
+               <l facs="#facs__eSc_line_8810a297">arreged. All in frene liana, ae hea</l>
+               <l facs="#facs__eSc_line_23979782">grlay e:</l>
+               <l facs="#facs__eSc_line_939692b5">Ue Chalmu</l>
+               <l facs="#facs__eSc_line_6f623424">wakuu krn.</l>
+            </ab></div>
+      </body>
+   </text>
+</TEI>

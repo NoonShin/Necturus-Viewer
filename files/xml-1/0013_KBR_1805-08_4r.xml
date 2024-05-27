@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt/>
+         <seriesStmt/>
+         <sourceDesc>
+            <bibl/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      </profileDesc>
+   </teiHeader>
+   <facsimile>
+      <surface ulx="0" uly="0" lrx="5186" lry="7123" xml:id="facs_13">
+         <graphic url="0013_KBR_1805-08_4r.tiff" width="5186px" height="7123px"/>
+         <graphic url="https://files.transkribus.eu/Get?id=GYNAMBQQHLZSBYMCZMQFFYCK&amp;fileType=view" width="5186px" height="7123px"/>
+         <zone points="2198,395 2454,395 2454,622 2198,622" rendition="TextRegion" xml:id="facs_13_region_1663262448042_261" subtype="header">
+            <zone points="2229,438 2436,438 2436,571 2229,571" rendition="Line" xml:id="facs_13_line_1663263669816_643"/>
+         </zone>
+         <zone points="753,680 2406,680 2406,5972 753,5972" rendition="TextRegion" xml:id="facs_13_region_1663262482538_264" subtype="paragraph">
+            <zone points="753,723 2286,723 2286,868 753,868" rendition="Line" xml:id="facs_13_region_1663262482538_264l1"/>
+            <zone points="826,849 2235,849 2235,980 826,980" rendition="Line" xml:id="facs_13_region_1663262482538_264l2"/>
+            <zone points="824,947 2227,947 2227,1079 824,1079" rendition="Line" xml:id="facs_13_region_1663262482538_264l3"/>
+            <zone points="820,1057 2263,1057 2263,1178 820,1178" rendition="Line" xml:id="facs_13_region_1663262482538_264l4"/>
+            <zone points="834,1168 2302,1168 2302,1281 834,1281" rendition="Line" xml:id="facs_13_region_1663262482538_264l5"/>
+            <zone points="844,1270 2270,1270 2270,1388 844,1388" rendition="Line" xml:id="facs_13_region_1663262482538_264l6"/>
+            <zone points="836,1377 2340,1377 2340,1492 836,1492" rendition="Line" xml:id="facs_13_region_1663262482538_264l7"/>
+            <zone points="832,1477 2356,1477 2356,1602 832,1602" rendition="Line" xml:id="facs_13_region_1663262482538_264l8"/>
+            <zone points="828,1576 2279,1576 2279,1715 828,1715" rendition="Line" xml:id="facs_13_region_1663262482538_264l9"/>
+            <zone points="840,1694 2274,1694 2274,1828 840,1828" rendition="Line" xml:id="facs_13_region_1663262482538_264l10"/>
+            <zone points="828,1801 2241,1801 2241,1941 828,1941" rendition="Line" xml:id="facs_13_region_1663262482538_264l11"/>
+            <zone points="840,1926 2320,1926 2320,2047 840,2047" rendition="Line" xml:id="facs_13_region_1663262482538_264l12"/>
+            <zone points="840,2024 2271,2024 2271,2155 840,2155" rendition="Line" xml:id="facs_13_region_1663262482538_264l13"/>
+            <zone points="854,2127 2271,2127 2271,2257 854,2257" rendition="Line" xml:id="facs_13_region_1663262482538_264l14"/>
+            <zone points="852,2254 2252,2254 2252,2358 852,2358" rendition="Line" xml:id="facs_13_region_1663262482538_264l15"/>
+            <zone points="838,2339 2255,2339 2255,2477 838,2477" rendition="Line" xml:id="facs_13_region_1663262482538_264l16"/>
+            <zone points="850,2459 2305,2459 2305,2589 850,2589" rendition="Line" xml:id="facs_13_region_1663262482538_264l17"/>
+            <zone points="850,2577 2363,2577 2363,2693 850,2693" rendition="Line" xml:id="facs_13_region_1663262482538_264l18"/>
+            <zone points="822,2678 2291,2678 2291,2809 822,2809" rendition="Line" xml:id="facs_13_region_1663262482538_264l19"/>
+            <zone points="848,2796 2287,2796 2287,2918 848,2918" rendition="Line" xml:id="facs_13_region_1663262482538_264l20"/>
+            <zone points="842,2904 2234,2904 2234,3031 842,3031" rendition="Line" xml:id="facs_13_region_1663262482538_264l21"/>
+            <zone points="840,3021 2271,3021 2271,3136 840,3136" rendition="Line" xml:id="facs_13_region_1663262482538_264l22"/>
+            <zone points="840,3130 2255,3130 2255,3241 840,3241" rendition="Line" xml:id="facs_13_region_1663262482538_264l23"/>
+            <zone points="834,3219 2271,3219 2271,3350 834,3350" rendition="Line" xml:id="facs_13_region_1663262482538_264l24"/>
+            <zone points="824,3339 2300,3339 2300,3455 824,3455" rendition="Line" xml:id="facs_13_region_1663262482538_264l25"/>
+            <zone points="840,3437 2195,3437 2195,3566 840,3566" rendition="Line" xml:id="facs_13_region_1663262482538_264l26"/>
+            <zone points="828,3557 2314,3557 2314,3673 828,3673" rendition="Line" xml:id="facs_13_region_1663262482538_264l27"/>
+            <zone points="848,3668 2260,3668 2260,3776 848,3776" rendition="Line" xml:id="facs_13_region_1663262482538_264l28"/>
+            <zone points="836,3775 2178,3775 2178,3884 836,3884" rendition="Line" xml:id="facs_13_region_1663262482538_264l29"/>
+            <zone points="920,3874 2194,3874 2194,3999 920,3999" rendition="Line" xml:id="facs_13_region_1663262482538_264l30"/>
+            <zone points="1074,3996 2270,3996 2270,4103 1074,4103" rendition="Line" xml:id="facs_13_line_1663263726948_657"/>
+            <zone points="840,4096 2226,4096 2226,4209 840,4209" rendition="Line" xml:id="facs_13_region_1663262482538_264l32"/>
+            <zone points="848,4199 2284,4199 2284,4316 848,4316" rendition="Line" xml:id="facs_13_region_1663262482538_264l33"/>
+            <zone points="854,4296 2304,4296 2304,4431 854,4431" rendition="Line" xml:id="facs_13_region_1663262482538_264l34"/>
+            <zone points="840,4427 2290,4427 2290,4541 840,4541" rendition="Line" xml:id="facs_13_region_1663262482538_264l35"/>
+            <zone points="836,4527 2278,4527 2278,4647 836,4647" rendition="Line" xml:id="facs_13_region_1663262482538_264l36"/>
+            <zone points="832,4642 2324,4642 2324,4747 832,4747" rendition="Line" xml:id="facs_13_region_1663262482538_264l37"/>
+            <zone points="848,4740 2273,4740 2273,4856 848,4856" rendition="Line" xml:id="facs_13_region_1663262482538_264l38"/>
+            <zone points="856,4845 2369,4845 2369,4966 856,4966" rendition="Line" xml:id="facs_13_region_1663262482538_264l39"/>
+            <zone points="832,4955 2239,4955 2239,5068 832,5068" rendition="Line" xml:id="facs_13_region_1663262482538_264l40"/>
+            <zone points="836,5059 2284,5059 2284,5171 836,5171" rendition="Line" xml:id="facs_13_region_1663262482538_264l41"/>
+            <zone points="852,5159 2311,5159 2311,5276 852,5276" rendition="Line" xml:id="facs_13_region_1663262482538_264l42"/>
+            <zone points="860,5271 2304,5271 2304,5382 860,5382" rendition="Line" xml:id="facs_13_region_1663262482538_264l43"/>
+            <zone points="866,5371 2269,5371 2269,5491 866,5491" rendition="Line" xml:id="facs_13_region_1663262482538_264l44"/>
+            <zone points="866,5485 2010,5485 2010,5594 866,5594" rendition="Line" xml:id="facs_13_region_1663262482538_264l45"/>
+            <zone points="1002,5566 2304,5566 2304,5713 1002,5713" rendition="Line" xml:id="facs_13_region_1663262482538_264l46"/>
+            <zone points="1089,5696 2359,5696 2359,5812 1089,5812" rendition="Line" xml:id="facs_13_line_1663263747254_667"/>
+            <zone points="866,5798 2259,5798 2259,5913 866,5913" rendition="Line" xml:id="facs_13_region_1663262482538_264l48"/>
+         </zone>
+         <zone points="2480,708 4633,708 4633,5952 2480,5952" rendition="TextRegion" xml:id="facs_13_region_1663262512334_267" subtype="paragraph">
+            <zone points="2480,734 4083,734 4083,862 2480,862" rendition="Line" xml:id="facs_13_region_1663262512334_267l1"/>
+            <zone points="2496,844 4093,844 4093,962 2496,962" rendition="Line" xml:id="facs_13_region_1663262512334_267l2"/>
+            <zone points="2490,943 4082,943 4082,1064 2490,1064" rendition="Line" xml:id="facs_13_region_1663262512334_267l3"/>
+            <zone points="2488,1047 4117,1047 4117,1167 2488,1167" rendition="Line" xml:id="facs_13_region_1663262512334_267l4"/>
+            <zone points="2482,1145 4089,1145 4089,1272 2482,1272" rendition="Line" xml:id="facs_13_region_1663262512334_267l5"/>
+            <zone points="2500,1259 4139,1259 4139,1378 2500,1378" rendition="Line" xml:id="facs_13_region_1663262512334_267l6"/>
+            <zone points="2488,1359 4104,1359 4104,1490 2488,1490" rendition="Line" xml:id="facs_13_region_1663262512334_267l7"/>
+            <zone points="2494,1469 4075,1469 4075,1592 2494,1592" rendition="Line" xml:id="facs_13_region_1663262512334_267l8"/>
+            <zone points="2500,1572 4117,1572 4117,1695 2500,1695" rendition="Line" xml:id="facs_13_region_1663262512334_267l9"/>
+            <zone points="2504,1676 4143,1676 4143,1807 2504,1807" rendition="Line" xml:id="facs_13_region_1663262512334_267l10"/>
+            <zone points="2514,1791 4055,1791 4055,1917 2514,1917" rendition="Line" xml:id="facs_13_region_1663262512334_267l11"/>
+            <zone points="2506,1901 4153,1901 4153,2027 2506,2027" rendition="Line" xml:id="facs_13_region_1663262512334_267l12"/>
+            <zone points="2510,2011 4080,2011 4080,2137 2510,2137" rendition="Line" xml:id="facs_13_region_1663262512334_267l13"/>
+            <zone points="2514,2117 4082,2117 4082,2248 2514,2248" rendition="Line" xml:id="facs_13_region_1663262512334_267l14"/>
+            <zone points="2506,2231 4110,2231 4110,2359 2506,2359" rendition="Line" xml:id="facs_13_region_1663262512334_267l15"/>
+            <zone points="2506,2350 4054,2350 4054,2468 2506,2468" rendition="Line" xml:id="facs_13_region_1663262512334_267l16"/>
+            <zone points="2520,2450 4075,2450 4075,2581 2520,2581" rendition="Line" xml:id="facs_13_region_1663262512334_267l17"/>
+            <zone points="2518,2564 4156,2564 4156,2687 2518,2687" rendition="Line" xml:id="facs_13_region_1663262512334_267l18"/>
+            <zone points="2508,2668 4117,2668 4117,2792 2508,2792" rendition="Line" xml:id="facs_13_region_1663262512334_267l19"/>
+            <zone points="2502,2777 4133,2777 4133,2901 2502,2901" rendition="Line" xml:id="facs_13_region_1663262512334_267l20"/>
+            <zone points="2504,2865 4159,2865 4159,3021 2504,3021" rendition="Line" xml:id="facs_13_region_1663262512334_267l21"/>
+            <zone points="2524,3008 4116,3008 4116,3130 2524,3130" rendition="Line" xml:id="facs_13_region_1663262512334_267l22"/>
+            <zone points="2488,3104 4131,3104 4131,3239 2488,3239" rendition="Line" xml:id="facs_13_region_1663262512334_267l23"/>
+            <zone points="2500,3221 4175,3221 4175,3339 2500,3339" rendition="Line" xml:id="facs_13_region_1663262512334_267l24"/>
+            <zone points="2524,3330 4136,3330 4136,3448 2524,3448" rendition="Line" xml:id="facs_13_region_1663262512334_267l25"/>
+            <zone points="2504,3424 4089,3424 4089,3558 2504,3558" rendition="Line" xml:id="facs_13_region_1663262512334_267l26"/>
+            <zone points="2504,3545 4204,3545 4204,3662 2504,3662" rendition="Line" xml:id="facs_13_region_1663262512334_267l27"/>
+            <zone points="2514,3645 4136,3645 4136,3771 2514,3771" rendition="Line" xml:id="facs_13_region_1663262512334_267l28"/>
+            <zone points="2516,3739 4123,3739 4123,3879 2516,3879" rendition="Line" xml:id="facs_13_region_1663262512334_267l29"/>
+            <zone points="2518,3860 4068,3860 4068,3981 2518,3981" rendition="Line" xml:id="facs_13_region_1663262512334_267l30"/>
+            <zone points="2530,3956 4065,3956 4065,4093 2530,4093" rendition="Line" xml:id="facs_13_region_1663262512334_267l31"/>
+            <zone points="2512,4069 4109,4069 4109,4202 2512,4202" rendition="Line" xml:id="facs_13_region_1663262512334_267l32"/>
+            <zone points="2520,4177 4035,4177 4035,4312 2520,4312" rendition="Line" xml:id="facs_13_region_1663262512334_267l33"/>
+            <zone points="2516,4283 3928,4283 3928,4430 2516,4430" rendition="Line" xml:id="facs_13_region_1663262512334_267l34"/>
+            <zone points="2546,4384 4016,4384 4016,4543 2546,4543" rendition="Line" xml:id="facs_13_region_1663262512334_267l35"/>
+            <zone points="2727,4522 4129,4522 4129,4608 2727,4608" rendition="Line" xml:id="facs_13_line_1663263831304_734"/>
+            <zone points="2526,4645 4001,4645 4001,4750 2526,4750" rendition="Line" xml:id="facs_13_region_1663262512334_267l39"/>
+            <zone points="2520,4727 3427,4727 3427,4862 2520,4862" rendition="Line" xml:id="facs_13_region_1663262512334_267l40"/>
+            <zone points="2624,4836 4096,4836 4096,4965 2624,4965" rendition="Line" xml:id="facs_13_region_1663262512334_267l41"/>
+            <zone points="2749,4958 3999,4958 3999,5060 2749,5060" rendition="Line" xml:id="facs_13_line_1663263821338_724"/>
+            <zone points="2492,5041 4083,5041 4083,5171 2492,5171" rendition="Line" xml:id="facs_13_region_1663262512334_267l43"/>
+            <zone points="2496,5157 4115,5157 4115,5270 2496,5270" rendition="Line" xml:id="facs_13_region_1663262512334_267l44"/>
+            <zone points="2512,5267 4047,5267 4047,5373 2512,5373" rendition="Line" xml:id="facs_13_region_1663262512334_267l45"/>
+            <zone points="2512,5366 4077,5366 4077,5487 2512,5487" rendition="Line" xml:id="facs_13_region_1663262512334_267l46"/>
+            <zone points="2506,5469 3378,5469 3378,5577 2506,5577" rendition="Line" xml:id="facs_13_line_1663263766522_681"/>
+            <zone points="4337,5430 4431,5430 4431,5497 4337,5497" rendition="Line" xml:id="facs_13_line_1663263785878_706"/>
+            <zone points="4206,5471 4623,5471 4623,5596 4206,5596" rendition="Line" xml:id="facs_13_line_1663263789092_711"/>
+            <zone points="3399,5462 4165,5462 4165,5565 3399,5565" rendition="Line" xml:id="facs_13_line_1663263779446_699"/>
+            <zone points="2518,5615 4173,5615 4173,5695 2518,5695" rendition="Line" xml:id="facs_13_region_1663262512334_267l49"/>
+            <zone points="2514,5677 4085,5677 4085,5806 2514,5806" rendition="Line" xml:id="facs_13_region_1663262512334_267l50"/>
+            <zone points="2518,5781 4051,5781 4051,5904 2518,5904" rendition="Line" xml:id="facs_13_region_1663262512334_267l51"/>
+         </zone>
+      </surface>
+   </facsimile>
+   <text>
+      <body><div><pb facs="#facs_13" n="13" xml:id="img_0013"/><fw type="header" place="top" facs="#facs_13_region_1663262448042_261">
+               <l facs="#facs_13_line_1663263669816_643" n="N001">.j.</l></fw>
+            <p facs="#facs_13_region_1663262482538_264">
+               <l facs="#facs_13_region_1663262482538_264l1" n="N001">. e daʼ begōste elc sine ꝑde mꝫ ha</l>
+               <l facs="#facs_13_region_1663262482538_264l2" n="N002">rē glauiē te slane . e metten</l>
+               <l facs="#facs_13_region_1663262482538_264l3" n="N003">sporē te doē bloeden . mʼ noch</l>
+               <l facs="#facs_13_region_1663262482538_264l4" n="N004">tā mochtemē de ꝑde mꝫ slagē</l>
+               <l facs="#facs_13_region_1663262482538_264l5" n="N005">e mꝫ sporē doē bloedē e qᵉllē .</l>
+               <l facs="#facs_13_region_1663262482538_264l6" n="N006">mʼ mē mochtse nᵗ vʼporrē . e</l>
+               <l facs="#facs_13_region_1663262482538_264l7" n="N007">aldꝰ ōtsagē si ouʼ dwatʼ te vaʼne</l>
+               <l facs="#facs_13_region_1663262482538_264l8" n="N008">als ī enē dootlekē putte te valne</l>
+               <l facs="#facs_13_region_1663262482538_264l9" n="N009">E als si lāge slaēde alle vā sla</l>
+               <l facs="#facs_13_region_1663262482538_264l10" n="N010">ue moede wordē . so seide .i. van</l>
+               <l facs="#facs_13_region_1663262482538_264l11" n="N011">hen liedē dꝫ si ō de mesdaꝫ die si</l>
+               <l facs="#facs_13_region_1663262482538_264l12" n="N012">dē heilegē mā gedaē haddē dach</l>
+               <l facs="#facs_13_region_1663262482538_264l13" n="N013">tʼdeel vā harē wege dꝰ gedoech-</l>
+               <l facs="#facs_13_region_1663262482538_264l14" n="N014">dē E si keʼdē thāt wedʼ e vō</l>
+               <l facs="#facs_13_region_1663262482538_264l15" n="N015">dē libʼtine liggēde ī bedīgen</l>
+               <l facs="#facs_13_region_1663262482538_264l16" n="N016">E doe si hē seidē . stāt op e nē</l>
+               <l facs="#facs_13_region_1663262482538_264l17" n="N017">di ꝑt . so ātwʼdde hi Gaꝫ mꝫ go</l>
+               <l facs="#facs_13_region_1663262482538_264l18" n="N018">de . ickē hebbe des ꝑts nᵗ te diene</l>
+               <l facs="#facs_13_region_1663262482538_264l19" n="N019">E si satē af e si settēne sis</l>
+               <l facs="#facs_13_region_1663262482538_264l20" n="N020">ōdācs opt ꝑt daʼ sine af geste-</l>
+               <l facs="#facs_13_region_1663262482538_264l21" n="N021">kē haddē . e staphās voerē</l>
+               <l facs="#facs_13_region_1663262482538_264l22" n="N022">si wech . E hare ꝑde liepē doe</l>
+               <l facs="#facs_13_region_1663262482538_264l23" n="N023">also snellec ouʼ die riuiere</l>
+               <l facs="#facs_13_region_1663262482538_264l24" n="N024">daʼ si te vorē nᵗ ē mochtē ouʼ</l>
+               <l facs="#facs_13_region_1663262482538_264l25" n="N025">lidē . als ochte ī die riuiere ne</l>
+               <l facs="#facs_13_region_1663262482538_264l26" n="N026">geen watʼ geweest ē hadde</l>
+               <l facs="#facs_13_region_1663262482538_264l27" n="N027">E aldꝰ geviel doemē des gods</l>
+               <l facs="#facs_13_region_1663262482538_264l28" n="N028">cnecht een ꝑt wedʼ gaf . dꝫ si</l>
+               <l facs="#facs_13_region_1663262482538_264l29" n="N029">alle hare ꝑde wedʼ ōtfīgē</l>
+               <l facs="#facs_13_region_1663262482538_264l30" n="N030">TE diē seluē tidē oec qᵃm</l>
+               <l facs="#facs_13_line_1663263726948_657" n="N031">buccellinꝰ mettē fᵃnsoy</l>
+               <l facs="#facs_13_region_1663262482538_264l32" n="N032">sen ī cāpaniē lāt E vā des</l>
+               <l facs="#facs_13_region_1663262482538_264l33" n="N033">vorseids gods cnechts cloestʼ</l>
+               <l facs="#facs_13_region_1663262482538_264l34" n="N034">was .i. niemare vte gegaen</l>
+               <l facs="#facs_13_region_1663262482538_264l35" n="N035">dꝫ hi gᵒt gelt hadde De fᵃnsoyse</l>
+               <l facs="#facs_13_region_1663262482538_264l36" n="N036">gīgē ī de kʼke e begōstē felle</l>
+               <l facs="#facs_13_region_1663262482538_264l37" n="N037">ke libʼtine te suekene . libʼti te</l>
+               <l facs="#facs_13_region_1663262482538_264l38" n="N038">roepene daʼ hi nedʼ lach ī ge</l>
+               <l facs="#facs_13_region_1663262482538_264l39" n="N039">bede Dits .i. wōdʼlec dīc De fᵃn-</l>
+               <l facs="#facs_13_region_1663262482538_264l40" n="N040">soyse hē suekēde . e iegē hē</l>
+               <l facs="#facs_13_region_1663262482538_264l41" n="N041">fellec gᵃm . Daʼ si ī qᵃmē stietē</l>
+               <l facs="#facs_13_region_1663262482538_264l42" n="N042">si hen an hē . e si ē mochtens</l>
+               <l facs="#facs_13_region_1663262482538_264l43" n="N043">nᵗ siē E aldꝰ wordē si mꝫ haʼre</l>
+               <l facs="#facs_13_region_1663262482538_264l44" n="N044">blēthᵗ gehoent e gīgen we-</l>
+               <l facs="#facs_13_region_1663262482538_264l45" n="N045">der ydel vtē cloestere</l>
+               <l facs="#facs_13_region_1663262482538_264l46" n="N046">Op enē ādʼen tijt ō dē orbo-</l>
+               <l facs="#facs_13_line_1663263747254_667" n="N047">re vādē cloestʼe bi sis abs</l>
+               <l facs="#facs_13_region_1663262482538_264l48" n="N048">beveelne die na honorato sinē</l></p>
+            <p facs="#facs_13_region_1663262512334_267">
+               <l facs="#facs_13_region_1663262512334_267l1" n="N001">meestʼ was . so voʼ hi te rauēnē E</l>
+               <l facs="#facs_13_region_1663262512334_267l2" n="N002">ō de mīne vā desē eersamē honorate</l>
+               <l facs="#facs_13_region_1663262512334_267l3" n="N003">so waʼ dꝫ libʼtinꝰ gīc so plach hi al</l>
+               <l facs="#facs_13_region_1663262512334_267l4" n="N004">toes ī sinē boesem honoratꝰ uepkē</l>
+               <l facs="#facs_13_region_1663262512334_267l5" n="N005">te dᵃgene E doe hi aldꝰ voʼ so geviel</l>
+               <l facs="#facs_13_region_1663262512334_267l6" n="N006">dꝫ op enē dach .i. wijf haʼs doods kīts</l>
+               <l facs="#facs_13_region_1663262512334_267l7" n="N007">lichame bᵃchte E doe si gods cnecht</l>
+               <l facs="#facs_13_region_1663262512334_267l8" n="N008">gesiē hadde . so wʼt si ōtstekē mettʼ</l>
+               <l facs="#facs_13_region_1663262512334_267l9" n="N009">mⁿ haʼs kīts . e si hielt si ꝑt mettē</l>
+               <l facs="#facs_13_region_1663262512334_267l10" n="N010">breidele . e seide al swʼende Du ē sels</l>
+               <l facs="#facs_13_region_1663262512334_267l11" n="N011">negeen sēs wech varē . du ē heefs</l>
+               <l facs="#facs_13_region_1663262512334_267l12" n="N012">mi kīt uʼwect E ō dꝫ hi ī ōgewoē-</l>
+               <l facs="#facs_13_region_1663262512334_267l13" n="N013">tē hadde so dane miraculē te doene .</l>
+               <l facs="#facs_13_region_1663262512334_267l14" n="N014">so ōtsach hi dē eet vā harē eyssche</l>
+               <l facs="#facs_13_region_1663262512334_267l15" n="N015">Hi woude hē scouwē vā dē wiue e</l>
+               <l facs="#facs_13_region_1663262512334_267l16" n="N016">kerē e hi ē mochte Hꝫ betaēt te</l>
+               <l facs="#facs_13_region_1663262512334_267l17" n="N017">mʼkene hoe gᵒt gestrijt ī si hʼte was</l>
+               <l facs="#facs_13_region_1663262512334_267l18" n="N018">Wāt daʼ street ōdʼlīge de oetmoedechᵗ</l>
+               <l facs="#facs_13_region_1663262512334_267l19" n="N019">sis leuēs e dʼ goedʼtiʼenhᵗ . vᵉse dꝫ hi</l>
+               <l facs="#facs_13_region_1663262512334_267l20" n="N020">hē nᵗ ōdʼwēdē ē soude dies hi nᵗ geplo-</l>
+               <l facs="#facs_13_region_1663262512334_267l21" n="N021">gē ē hadde . dᵛefhᵗ dꝫ hi dē bedᵛefdē wi-</l>
+               <l facs="#facs_13_region_1663262512334_267l22" n="N022">ue nᵗ hulpē ē soude Mʼ tʼ meʼre glʼien</l>
+               <l facs="#facs_13_region_1663262512334_267l23" n="N023">gods uʼwā goedʼtiʼenhᵗ thʼte dʼ doget .</l>
+               <l facs="#facs_13_region_1663262512334_267l24" n="N024">e hiʼōme waest stʼc . Wāt hꝫ wʼt vʼ-</l>
+               <l facs="#facs_13_region_1663262512334_267l25" n="N025">wōnē En soude nᵗ wesē .i. hʼte vā do-</l>
+               <l facs="#facs_13_region_1663262512334_267l26" n="N026">gedē ē hadde dꝫ goedʼtiʼenhᵗ nᵗ uʼwō</l>
+               <l facs="#facs_13_region_1663262512334_267l27" n="N027">nē E aldꝰ sat hi af vā dē ꝑde e cniel</l>
+               <l facs="#facs_13_region_1663262512334_267l28" n="N028">de . e stac sine hāde te hemel wʼt . e</l>
+               <l facs="#facs_13_region_1663262512334_267l29" n="N029">tᵃc duepkē vtē boeseme e leidt op</l>
+               <l facs="#facs_13_region_1663262512334_267l30" n="N030">des doos kīts borst E doe hi bad so</l>
+               <l facs="#facs_13_region_1663262512334_267l31" n="N031">qᵃm des kīts siele wedʼ tē lichᵉ E</l>
+               <l facs="#facs_13_region_1663262512334_267l32" n="N032">hi naēt bi dʼ hāt e gaeft wedʼ sire</l>
+               <l facs="#facs_13_region_1663262512334_267l33" n="N033">moedʼ die weende . e dede vort</l>
+               <l facs="#facs_13_region_1663262512334_267l34" n="N034">sinē wech diē hi begōnē hadde</l>
+               <l facs="#facs_13_region_1663262512334_267l35" n="N035">PEtrꝰ . Wāt wat seggē wi dꝫ</l>
+               <l facs="#facs_13_line_1663263831304_734" n="N036">wesē dꝫ honoratꝰ vʼdiēte dede</l>
+               <l facs="#facs_13_region_1663262512334_267l39" n="N037">de cᵃcht vā dʼ gᵒtʼ miraculē ochte</l>
+               <l facs="#facs_13_region_1663262512334_267l40" n="N038">libertinus beede</l>
+               <l facs="#facs_13_region_1663262512334_267l41" n="N039">GRegoriꝰ Jndē vʼtoenēne vā so</l>
+               <l facs="#facs_13_line_1663263821338_724" n="N040">wōdʼlekē teekene mꝫ swijfs</l>
+               <l facs="#facs_13_region_1663262512334_267l43" n="N041">geloeue so halp haʼre beidʼ doget e</l>
+               <l facs="#facs_13_region_1663262512334_267l44" n="N042">geloeue E hiʼoe wanic dꝫ libʼtinꝰ</l>
+               <l facs="#facs_13_region_1663262512334_267l45" n="N043">dese dīgē vʼmochte te diene Wāt hi</l>
+               <l facs="#facs_13_region_1663262512334_267l46" n="N044">hadde meʼ geleʼt te betᵒuwene van</l>
+               <l facs="#facs_13_line_1663263766522_681" n="N045">sis meestʼs geloeue</l>
+               <l facs="#facs_13_line_1663263785878_706" n="N046">⸫</l>
+               <l facs="#facs_13_line_1663263789092_711" n="N047">of gebed</l>
+               <l facs="#facs_13_line_1663263779446_699" n="N048">dā vā sire doget</l>
+               <l facs="#facs_13_region_1663262512334_267l49" n="N049">Wāt dies uepkē dꝫ hi op sdoods lichen</l>
+               <l facs="#facs_13_region_1663262512334_267l50" n="N050">borst leide . hi waēde sōdʼ dʼ twiuel</l>
+               <l facs="#facs_13_region_1663262512334_267l51" n="N051">dꝫ sine siele behoudē mochte dꝫ hi</l></p></div>
+      </body>
+   </text>
+</TEI>
