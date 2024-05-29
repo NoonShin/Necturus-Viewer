@@ -130,14 +130,15 @@ export function DBImportModal({ show, switchShow, setCollection, setDbUrl }) {
                 show={showCollections}
                 handleClose={handleCollectionClose}
                 setCollection={setCollection}
+                url={url}
             />
         </Fragment>
     )
 }
 
-const CollectionModal = ({ collections, show, handleClose, setCollection }) => {
+const CollectionModal = ({ collections, show, handleClose, setCollection, url }) => {
     const handleCollectionSelect = (collection) => {
-        const reqUrl = 'http://194.31.150.49/dbnyj/necturus.xql/' + collection.url
+        const reqUrl = url + '/' + collection.url
         axios.get(reqUrl)
             .then((result) => {
                 setCollection(result.data)
@@ -145,15 +146,6 @@ const CollectionModal = ({ collections, show, handleClose, setCollection }) => {
             .catch((error) => {
                 console.log(error)
             });
-        // const sampleCollection = {
-        //     'name': 'Collection 1',
-        //     'files': [
-        //         'File 1',
-        //         'File 2',
-        //         'File 3'
-        //     ]
-        // }
-        // setCollection(sampleCollection);
         handleClose();
     }
     return (
