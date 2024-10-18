@@ -167,11 +167,13 @@ const XmlHtmlRenderer = ({ xmlString, onSelection, setSelection, setAnnoZones })
     }, [xmlString]);
 
     useEffect(() => {
+        console.log("in selection", onSelection)
         if (!xmlString) return;
         setSelectedElement(containerRef.current?.querySelector(`[facs="#${onSelection}"]`))
     }, [onSelection])
 
     useEffect(() => {
+        console.log("in elem", selectedElement)
         if (prevSelectedElement) prevSelectedElement.classList.remove("highlighted");
         if (selectedElement) {
             selectedElement.classList.add("highlighted");
