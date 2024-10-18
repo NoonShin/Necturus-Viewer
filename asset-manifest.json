@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "https://noonshin.github.io/Necturus-Viewer/static/css/main.785f954c.css",
-    "main.js": "https://noonshin.github.io/Necturus-Viewer/static/js/main.402c0bd5.js",
-    "static/js/787.1c8c503e.chunk.js": "https://noonshin.github.io/Necturus-Viewer/static/js/787.1c8c503e.chunk.js",
-    "static/media/logo.png": "https://noonshin.github.io/Necturus-Viewer/static/media/logo.93057cafde182e0ca2fc.png",
-    "static/media/Junicode.woff": "https://noonshin.github.io/Necturus-Viewer/static/media/Junicode.37e52cd39d317a569d3d.woff",
-    "index.html": "https://noonshin.github.io/Necturus-Viewer/index.html",
-    "main.785f954c.css.map": "https://noonshin.github.io/Necturus-Viewer/static/css/main.785f954c.css.map",
-    "main.402c0bd5.js.map": "https://noonshin.github.io/Necturus-Viewer/static/js/main.402c0bd5.js.map",
-    "787.1c8c503e.chunk.js.map": "https://noonshin.github.io/Necturus-Viewer/static/js/787.1c8c503e.chunk.js.map"
+    "main.css": "/Necturus-Viewer/static/css/main.3316ef59.css",
+    "main.js": "/Necturus-Viewer/static/js/main.3d314415.js",
+    "static/js/787.1c8c503e.chunk.js": "/Necturus-Viewer/static/js/787.1c8c503e.chunk.js",
+    "static/media/logo.png": "/Necturus-Viewer/static/media/logo.93057cafde182e0ca2fc.png",
+    "static/media/Junicode.woff": "/Necturus-Viewer/static/media/Junicode.37e52cd39d317a569d3d.woff",
+    "index.html": "/Necturus-Viewer/index.html",
+    "main.3316ef59.css.map": "/Necturus-Viewer/static/css/main.3316ef59.css.map",
+    "main.3d314415.js.map": "/Necturus-Viewer/static/js/main.3d314415.js.map",
+    "787.1c8c503e.chunk.js.map": "/Necturus-Viewer/static/js/787.1c8c503e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.785f954c.css",
-    "static/js/main.402c0bd5.js"
+    "static/css/main.3316ef59.css",
+    "static/js/main.3d314415.js"
   ]
 }
