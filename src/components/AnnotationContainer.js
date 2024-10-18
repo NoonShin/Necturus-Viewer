@@ -13,12 +13,9 @@ function ImageComponent({ onSelection, setSelection, currentPage, annoZones, set
     const viewerRef = useRef();
     const [anno, setAnno] = useState(null);
     const [imgURL, setImgURL] = useState('');
-    const [selectionThruImg, setSelectionThruImg] = useState(null);
 
     const handleAnnoClick = (e) => {
-        if (e.target.tagName !== 'polygon')
-            // setSelection('');
-            console.log(e.target)
+        if (e.target.tagName !== 'polygon') setSelection('');
     };
 
     function createAnnotationUrl() {
@@ -58,13 +55,7 @@ function ImageComponent({ onSelection, setSelection, currentPage, annoZones, set
 
             annotorious.on('selectAnnotation', function(annotation, element) {
                 setSelection(element.getAttribute('data-id'));
-                // setSelectionThruImg(element.getAttribute('data-id'));
-                console.log(element.getAttribute('data-id'))
             });
-
-            // annotorious.on('cancelSelected', function(selection) {
-            //    setSelection('');
-            // });
 
             if (annoZones) annotorious.loadAnnotations(createAnnotationUrl());
 
@@ -80,12 +71,9 @@ function ImageComponent({ onSelection, setSelection, currentPage, annoZones, set
     }, [imgURL, annoZones]);
 
     useEffect(() => {
-        if (anno && onSelection) {
-            // if (onSelection !== selectionThruImg) {
-                console.log("in", onSelection)
-                anno.selectAnnotation(onSelection);
-                anno.panTo(onSelection)
-            // }
+        if (anno) {
+            anno.selectAnnotation(onSelection);
+            anno.panTo(onSelection)
         }
     }, [onSelection]);
 
