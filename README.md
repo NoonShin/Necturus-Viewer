@@ -4,6 +4,8 @@
 
 This lightweight viewer has been developed as an embeddable tool for online digital scholarly editions, providing the users with the ability to view their files interlinked and paginated. This is currently a beta version.
 
+For Necturus Compact, please go to [this repository](https://github.com/eXtant-CMG/Necturus-Viewer-Compact/tree/main).
+
 
 ## Composition
 
